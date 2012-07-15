@@ -10,13 +10,10 @@ NORMAL=$(tput sgr0)
 
 passwords=( $( cat ~/.gmail ) )
 
-# functions!
-echo "${RED}gavingmiller@gmail.com${NORMAL}"
-USERNAME1=${passwords[0]}
-PASSWORD1=${passwords[1]}
-curl -u ${USERNAME1}:${PASSWORD1} --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "'${GREEN}'$2'${NORMAL}'\n" if /<(title|name)>(.*)<\/\1>/;'
+function get {
+  echo "${RED}$1${NORMAL}"
+  curl -u $1:$2 --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "'${GREEN}'$2'${NORMAL}'\n" if /<(title|name)>(.*)<\/\1>/;'
+}
 
-echo "${RED}gavin@randomtype.ca${NORMAL}"
-USERNAME2=${passwords[2]}
-PASSWORD2=${passwords[3]}
-curl -u ${USERNAME2}:${PASSWORD2} --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "'${GREEN}'$2'${NORMAL}'\n" if /<(title|name)>(.*)<\/\1>/;'
+get ${passwords[0]} ${passwords[1]}
+get ${passwords[2]} ${passwords[3]}
