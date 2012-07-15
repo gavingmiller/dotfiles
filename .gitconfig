@@ -10,6 +10,7 @@
   st = status
   ci = commit
   dc = diff --cached
+  pom = push origin master
 
 
   # Fancy logging.
