@@ -19,7 +19,7 @@ AUTHOR="%C(bold blue)<%an>%Creset"
 REFS="%C(red)%d%Creset"
 SUBJECT="%s"
 
-FORMAT="$HASH}$RELATIVE_TIME}$AUTHOR}$REFS $SUBJECT"
+FORMAT="$HASH}$RELATIVE_TIME}$REFS $SUBJECT}$AUTHOR"
 
 show_git_head() {
   pretty_git_log -1
