@@ -14,12 +14,26 @@ function get {
   echo "${RED}$1${NORMAL}"
   curl -u $1:$2 --silent "https://mail.google.com/mail/feed/atom" | \
     perl -ne \
-      'print "    " if /<name>/; \
+      'print "\n" if /<title>/ and !/Gmail - Inbox/; \
+      print "    " if /<name>/; \
       print "  " if /<summary>/; \
       print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/ and !/Gmail - Inbox/; \
       print "'${YELLOW}'$2'${NORMAL}'\n" if /<(summary)>(.*)<\/\1>/; \
       print "'${BLUE}'$2'${NORMAL}'\n" if /<(name)>(.*)<\/\1>/;'
 }
 
+# Clear the screen
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+echo;echo;echo;echo;echo;echo;echo;echo;
+
 get ${passwords[0]} ${passwords[1]}
+echo
+echo "-------------------------------"
+echo
 get ${passwords[2]} ${passwords[3]}
