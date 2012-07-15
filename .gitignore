@@ -31,9 +31,6 @@
 .bash_history
 .gdb_history
 .gemrc
-.gitconfig
-.githelpers
-.gitignore_global
 .gitk
 .hushlogin
 .irb-history
