@@ -16,7 +16,7 @@ function get {
     perl -ne \
       'print "    " if /<name>/; \
       print "  " if /<summary>/; \
-      print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/; \
+      print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/ and !/Gmail - Inbox/; \
       print "'${YELLOW}'$2'${NORMAL}'\n" if /<(summary)>(.*)<\/\1>/; \
       print "'${BLUE}'$2'${NORMAL}'\n" if /<(name)>(.*)<\/\1>/;'
 }
