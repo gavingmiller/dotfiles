@@ -12,7 +12,13 @@ passwords=( $( cat ~/.gmail ) )
 
 function get {
   echo "${RED}$1${NORMAL}"
-  curl -u $1:$2 --silent "https://mail.google.com/mail/feed/atom" | perl -ne 'print "\t" if /<name>/; print "'${GREEN}'$2'${NORMAL}'\n" if /<(title|name)>(.*)<\/\1>/;'
+  curl -u $1:$2 --silent "https://mail.google.com/mail/feed/atom" | \
+    perl -ne \
+      'print "    " if /<name>/; \
+      print "  " if /<summary>/; \
+      print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/; \
+      print "'${YELLOW}'$2'${NORMAL}'\n" if /<(summary)>(.*)<\/\1>/; \
+      print "'${BLUE}'$2'${NORMAL}'\n" if /<(name)>(.*)<\/\1>/;'
 }
 
 get ${passwords[0]} ${passwords[1]}
