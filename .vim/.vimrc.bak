@@ -1,0 +1,115 @@
+" Remap double escape to :noh
+nnoremap <esc> :noh<cr><esc>
+
+" Setup for color scheme
+" colorscheme solarized
+" set background=light
+" syntax on
+
+" From http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+filetype off
+call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
+
+set nocompatible
+
+set modelines=0
+set nowrap            " don't wrap lines
+set tabstop=2         " a tab is 2 spaces
+set shiftwidth=2
+set softtabstop=2
+set expandtab         " use spaces, not tabs
+
+set encoding=utf-8
+set scrolloff=3
+set autoindent
+set showmode
+set showcmd
+set hidden
+set wildmenu
+set wildmode=list:longest
+set visualbell
+set cursorline
+set ttyfast
+set ruler
+set backspace=indent,eol,start
+set laststatus=2
+
+if v:progname != "vi"
+  set relativenumber
+  set colorcolumn=85
+endif
+
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
+
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+
+inoremap <F1> <ESC>
+nnoremap <F1> <ESC>
+vnoremap <F1> <ESC>
+
+" Removed since I don't actually use it
+" nnoremap ; :
+
+" This is getting annoying when editting rails files
+" au FocusLost * :wa
+
+" Remap leader key
+let mapleader = ","
+
+" Remove backup and swap files
+set nobackup
+set noswapfile
+
+" NERD Tree
+map <leader>nt :NERDTreeToggle<cr>
+let NERDTreeIgnore=['.vim$', '\~$']
+
+" CommandT
+" Flushing was a bear - do it every time CommandT is opened
+map <leader>t  :CommandTFlush<cr>:CommandT<cr>
+
+" Handle ruby indentation properly with gg=G
+" From http://stackoverflow.com/questions/3785628/format-ruby-code-in-vim
+if has("autocmd")
+  filetype indent on
+endif
+
+" Strip trailing whitespace
+" From http://rails-bestpractices.com/posts/60-remove-trailing-whitespace
+function! <SID>StripTrailingWhitespaces()
+    " Preparation: save last search, and cursor position.
+    let _s=@/
+    let l = line(".")
+    let c = col(".")
+    " Do the business:
+    %s/\s\+$//e
+    " Clean up: restore previous search history, and cursor position
+    let @/=_s
+    call cursor(l, c)
+endfunction
+autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
+
