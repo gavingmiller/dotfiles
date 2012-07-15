@@ -29,8 +29,8 @@ grb_git_prompt() {
     fi
     local SINCE_LAST_COMMIT="${COLOR}$(minutes_since_last_commit)m${NORMAL}"
     # The __git_ps1 function inserts the current git branch where %s is
-    local GIT_PROMPT=`__git_ps1 "(${SINCE_LAST_COMMIT}|%s)"`
+    local GIT_PROMPT=`__git_ps1 "(${SINCE_LAST_COMMIT}|${VIOLET}%s${NORMAL})"`
     echo ${GIT_PROMPT}
   fi
 }
-PS1="\h:\W\$(grb_git_prompt) \u\$ "
+PS1="\h:\W\$(grb_git_prompt) \$ "
