@@ -1,4 +1,3 @@
-*.DS_Store
 .BlocksThatMatterUserDatas/
 .Trash/
 .adobe/
@@ -30,7 +29,6 @@
 .Xauthority
 .CFUserTextEncoding
 .bash_history
-.bashrc
 .gdb_history
 .gemrc
 .gitconfig
@@ -46,7 +44,6 @@
 .mysql_history
 .pinboard
 .pow
-.profile
 .pry_history
 .psql_history
 .rdebug_hist
@@ -67,7 +64,6 @@ Public/
 Sites/
 VirtualBox VMs/
 android-sdks/
-bin/
 paros/
 
 crossfit
