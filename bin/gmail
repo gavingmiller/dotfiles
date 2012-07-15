@@ -4,8 +4,6 @@ RED=$(tput bold)$(tput setaf 1)
 GREEN=$(tput bold)$(tput setaf 2)
 YELLOW=$(tput bold)$(tput setaf 3)
 BLUE=$(tput bold)$(tput setaf 4)
-PINK=$(tput bold)$(tput setaf 5)
-CYAN=$(tput bold)$(tput setaf 6)
 NORMAL=$(tput sgr0)
 
 passwords=( $( cat ~/.gmail ) )
