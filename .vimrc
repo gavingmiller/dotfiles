@@ -132,7 +132,6 @@ augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""
 " MISC KEY MAPS
 """"""""""""""""""""""""""""""""""""""""""""""""
-" TODO what does this do?
 map <leader>y "*y
 " Move around splits with <c-hjkl>
 " nnoremap <c-j> <c-w>j
