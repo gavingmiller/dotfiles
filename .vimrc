@@ -322,4 +322,4 @@ let NERDTreeIgnore=['.vim$', '\~$']
 set wildignore+=build/**
 
 " for vukani_rails
-set wildignore+=tmp/**,vendor/gems/**,public/system/**
+set wildignore+=tmp/**,vendor/gems/**,public/system/**,coverage/**
