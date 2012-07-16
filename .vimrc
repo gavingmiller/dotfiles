@@ -309,31 +309,7 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""
-" Original vimrc
+" NERD TREE
 """"""""""""""""""""""""""""""""""""""""""""""""
-
-" Remap double escape to :noh
-" nnoremap <esc> :noh<cr><esc>
-
-" Setup for color scheme
-
-
-" set nowrap            " don't wrap lines
-
-
-" nnoremap / /\v
-" vnoremap / /\v
-" set gdefault
-" nnoremap <tab> %
-" vnoremap <tab> %
-
-" nnoremap j gj
-" nnoremap k gk
-
-" inoremap <F1> <ESC>
-" nnoremap <F1> <ESC>
-" vnoremap <F1> <ESC>
-
-" NERD Tree
 map <leader>nt :NERDTreeToggle<cr>
 let NERDTreeIgnore=['.vim$', '\~$']
