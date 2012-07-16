@@ -9,6 +9,7 @@
 #
 # Example usage:
 #     $ run-command-on-git-revisions origin/master master 'python runtests.py'
+# See DAS-0011 ~minute 7 for visual explanation
 
 set -e
 
