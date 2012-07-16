@@ -20,9 +20,10 @@ function get {
       print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/ and !/Gmail - Inbox/; \
       print "'${YELLOW}'$2'${NORMAL}'\n" if /<(summary)>(.*)<\/\1>/; \
       print "'${BLUE}'$2'${NORMAL}'\n" if /<(name)>(.*)<\/\1>/;' | \
-    sed "s/&#39;/'/" | \
-    sed "s/&lt;/</" | \
-    sed "s/&gt;/>/"
+    sed "s/&#39;/'/g" | \
+    sed "s/&lt;/</g" | \
+    sed "s/&gt;/>/g" | \
+    sed "s/&amp;/\&/g"
 }
 
 # Clear the screen
