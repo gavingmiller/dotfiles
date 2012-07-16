@@ -1,9 +1,6 @@
 #!/bin/bash
 
 RED=$(tput bold)$(tput setaf 1)
-GREEN=$(tput bold)$(tput setaf 2)
-YELLOW=$(tput bold)$(tput setaf 3)
-BLUE=$(tput bold)$(tput setaf 4)
 NORMAL=$(tput sgr0)
 
 passwords=( $( cat ~/.gmail ) )
@@ -13,13 +10,7 @@ function get {
   printf %${#1}s |tr " " "="
   echo "${NORMAL}"
   curl -u $1:$2 --silent "https://mail.google.com/mail/feed/atom" | \
-    perl -ne \
-      'print "\n" if /<title>/ and !/Gmail - Inbox/; \
-      print "    " if /<name>/; \
-      print "  " if /<summary>/; \
-      print "'${GREEN}'$2'${NORMAL}'\n" if /<(title)>(.*)<\/\1>/ and !/Gmail - Inbox/; \
-      print "'${YELLOW}'$2'${NORMAL}'\n" if /<(summary)>(.*)<\/\1>/ and ($2 ne ""); \
-      print "'${BLUE}'$2'${NORMAL}'\n" if /<(name)>(.*)<\/\1>/;' | \
+    perl gmail-parse.pl | \
     sed "s/&#39;/'/g" | \
     sed "s/&lt;/</g" | \
     sed "s/&gt;/>/g" | \
