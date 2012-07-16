@@ -20,7 +20,9 @@ while (defined($line = <STDIN>)) {
   }
 
   if ($line =~ /<(name)>(.*)<\/\1>/) {
-    print "$blue$2$normal\n"
+    $name = $2;
+    $name =~ s/^me$/Gavin Miller/g;
+    print "$blue<$name>$normal\n";
   }
 
 
