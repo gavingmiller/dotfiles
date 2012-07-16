@@ -313,3 +313,10 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 """"""""""""""""""""""""""""""""""""""""""""""""
 map <leader>nt :NERDTreeToggle<cr>
 let NERDTreeIgnore=['.vim$', '\~$']
+
+""""""""""""""""""""""""""""""""""""""""""""""""
+" PROJECT SPECIFIC
+""""""""""""""""""""""""""""""""""""""""""""""""
+
+" for crossfit rubymotion project
+set wildignore+=build/**
