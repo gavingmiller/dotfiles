@@ -234,8 +234,8 @@ map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>t :call RunTestFile()<cr>
-map <leader>T :call RunNearestTest()<cr>
+map <leader>T :call RunTestFile()<cr>
+map <leader>t :call RunNearestTest()<cr>
 map <leader>a :call RunTests('')<cr>
 map <leader>c :w\|:!script/features<cr>
 map <leader>w :w\|:!script/features --profile wip<cr>
