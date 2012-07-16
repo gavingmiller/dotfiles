@@ -320,3 +320,6 @@ let NERDTreeIgnore=['.vim$', '\~$']
 
 " for crossfit rubymotion project
 set wildignore+=build/**
+
+" for vukani_rails
+set wildignore+=tmp/**,vendor/gems/**,public/system/**
