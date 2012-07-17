@@ -3,8 +3,8 @@ source .bashrc
 source ~/bin/git-completion.bash
 
 # Set SVN editor
-export SVN_EDITOR=mvim
-export EDITOR=mvim
+export SVN_EDITOR=vim
+export EDITOR=vim
 
 # Scripting paths
 export PATH="$PATH:/Users/gavinmiller/Documents/Dropbox/projects/scripts"
