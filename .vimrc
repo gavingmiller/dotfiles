@@ -139,7 +139,7 @@ map <leader>y "*y
 " nnoremap <c-h> <c-w>h
 " nnoremap <c-l> <c-w>l
 
-" Insert a hash rocket with <c-l>
+" Insert a hash rocket with <ctrl-l> in insert mode
 imap <c-l> <space>=><space>
 
 " " Can't be bothered to understand ESC vs <c-c> in insert mode
