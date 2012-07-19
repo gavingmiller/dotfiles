@@ -46,6 +46,7 @@
 .psql_history
 .rdebug_hist
 .recently-used.xbel
+.rediscli_history
 .sqlite_history
 .viminfo
 
