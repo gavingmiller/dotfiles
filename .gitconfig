@@ -17,6 +17,5 @@
   # Fancy logging.
   r = !git l -30
   ra = !git r --all
-  # Where does pretty_git_log come from?
   l = "!source ~/.githelpers && pretty_git_log"
 
