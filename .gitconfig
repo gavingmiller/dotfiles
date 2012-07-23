@@ -7,15 +7,23 @@
   excludesfile = /Users/gavinmiller/.gitignore_global
   editor = vimdiff
 [alias]
+  # Aliases borrowed heavily from:
+  # https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
   st = status
   ci = commit
   di = diff
   dc = diff --cached
+  amend = commit --amend
   pom = push origin master
 
 
   # Fancy logging.
+  #   r = recent commits, only current branch
+  #   ra = recent commits, all reachable refs
+  #   l = all commits, only current branch
+  #   la = all commits, all reachable refs
   r = !git l -30
   ra = !git r --all
   l = "!source ~/.githelpers && pretty_git_log"
+  la = !git l --all
 
