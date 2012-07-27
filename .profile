@@ -21,7 +21,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # android
-export PATH="$HOME/android-sdks/tools/:$HOME/android-sdks/platform-tools/:$PATH"
+export PATH="$HOME/android-sdks/tools:$HOME/android-sdks/platform-tools:$PATH"
 
 # mysql
 export PATH="/usr/local/mysql/bin:$PATH"
