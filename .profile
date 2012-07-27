@@ -1,5 +1,5 @@
 # Include .bashrc and git-completion
-source .bashrc
+source ~/.bashrc
 source ~/bin/git-completion.bash
 
 # Set SVN editor
