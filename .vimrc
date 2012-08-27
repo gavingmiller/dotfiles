@@ -14,7 +14,7 @@ set nocompatible
 set relativenumber
 
 " color the 80th column
-set colorcolumn=80
+set colorcolumn=120
 
 " allow unsaved background buffers and remember marks/undo for them
 set hidden
