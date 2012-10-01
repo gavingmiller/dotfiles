@@ -16,6 +16,7 @@
   amend = commit --amend
   pom = push origin master
 
+  tags = tag -n10
 
   # Fancy logging.
   #   r = recent commits, only current branch
