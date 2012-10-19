@@ -11,6 +11,7 @@
   # https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
   st = status
   ci = commit
+  co = checkout
   di = diff
   dc = diff --cached
   amend = commit --amend
