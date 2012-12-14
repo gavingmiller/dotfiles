@@ -1,0 +1,4 @@
+#!/bin/bash
+
+open -n /Applications/Dev/desktop/Eclipse.app
+
