@@ -1,0 +1,4 @@
+#!/bin/bash
+# Clear bug causing finder to not open: http://superuser.com/a/497073/1168
+
+sudo killall -KILL appleeventsd
