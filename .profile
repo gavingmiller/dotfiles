@@ -28,3 +28,8 @@ export PATH="/usr/local/mysql/bin:$PATH"
 
 # vim
 export PATH="/usr/local/bin:$PATH"
+
+# Ruby Falcon patch settings
+# Source: https://gist.github.com/1688857
+export RUBY_GC_MALLOC_LIMIT=60000000
+export RUBY_FREE_MIN=200000
