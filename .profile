@@ -33,3 +33,7 @@ export PATH="/usr/local/bin:$PATH"
 # Source: https://gist.github.com/1688857
 export RUBY_GC_MALLOC_LIMIT=60000000
 export RUBY_FREE_MIN=200000
+
+# Relative pathing for script/bin in rails projects
+export PATH="./script:$PATH"
+export PATH="./bin:$PATH"
