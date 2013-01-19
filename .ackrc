@@ -1,0 +1,9 @@
+# Treat coffee script files like js
+#   From: http://effectif.com/coffeescript/using-ack-with-coffeescript
+--type-add
+js=.coffee
+
+# Define a new file type for coffee script
+#   From: http://effectif.com/coffeescript/using-ack-with-coffeescript
+--type-set
+coffee=.coffee
