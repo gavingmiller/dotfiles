@@ -93,6 +93,10 @@ augroup vimrcEx
         \   exe "normal g`\"" |
         \ endif
 
+  " for wkhtmltopdf templates ending in .pdf.erb we still want eruby and
+  " html syntax highlighting and indent rules
+  autocmd BufNewFile,BufRead *.pdf.erb let b:eruby_subtype='html'|set filetype=eruby
+
   " for ruby, autoindent with two spaces, always expand tabs
   autocmd FileType ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
   autocmd FileType python set sw=4 sts=4 et
@@ -102,11 +106,14 @@ augroup vimrcEx
   autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 
-  " Indent p tags
-  autocmd FileType html,eruby
-        \ if g:html_indent_tags !~ '\\|p\>' |
-        \ let g:html_indent_tags .= '\|p\|li\|dt\|dd' |
-        \ endif
+  " *.pdf.erb files don't have html_indent_tags defined
+  if exists("g:html_indent_tags")
+    " Indent p tags
+    autocmd FileType html,eruby
+          \ if g:html_indent_tags !~ '\\|p\>' |
+          \ let g:html_indent_tags .= '\|p\|li\|dt\|dd' |
+          \ endif
+  endif
 
   " Don't syntax highlight markdown because it's often wrong
   autocmd! FileType mkd setlocal syn=off
