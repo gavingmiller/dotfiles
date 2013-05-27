@@ -7,7 +7,7 @@ export SVN_EDITOR=vim
 export EDITOR=vim
 
 # Scripting paths
-export PATH="$PATH:/Users/gavinmiller/Documents/Dropbox/projects/scripts"
+export PATH="$PATH:/Users/gavinmiller/Dropbox/Personal/projects/scripts"
 export PATH="~/bin:$PATH"
 
 # MacPorts Installer addition on 2010-10-31_at_15:03:17: adding an appropriate PATH variable for use with MacPorts.
@@ -37,3 +37,6 @@ export RUBY_FREE_MIN=200000
 # Relative pathing for script/bin in rails projects
 export PATH="./script:$PATH"
 export PATH="./bin:$PATH"
+
+# PostgreSQL configuration
+export PATH="$HOME/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
