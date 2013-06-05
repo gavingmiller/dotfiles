@@ -8,7 +8,7 @@ export EDITOR=vim
 
 # Scripting paths
 export PATH="$PATH:/Users/gavinmiller/Dropbox/Personal/projects/scripts"
-export PATH="~/bin:$PATH"
+export PATH="/Users/gavinmiller/bin:$PATH"
 
 # MacPorts Installer addition on 2010-10-31_at_15:03:17: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
