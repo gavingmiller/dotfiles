@@ -72,3 +72,36 @@ script
 system.gems
 vukani-rails
 wiki
+.DS_Store
+.Genymobile/
+.IdeaIC14/
+.cache/
+.cpan/
+.dbshell
+.gradle
+.guard_history
+.erlang.cookie
+.htoprc
+.httpie/
+.ionic/
+.local/
+.m2/
+.mongorc.js
+.netrc
+.node-gyp/
+.npm
+.papertrail.yml
+.pip/
+.rnd
+.putty/
+.pgpass
+.pgadmin_histoqueries
+Applications (Parallels)
+Applications (Parallels)/
+Applications/
+Dropbox
+Dropbox (PetroFeed)/
+iMacros/
+neo4j-community-2.0.0-M06/
+pgadmin.log
+work
