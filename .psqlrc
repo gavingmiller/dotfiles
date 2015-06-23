@@ -1,0 +1,20 @@
+-- Modified from: http://www.craigkerstiens.com/2013/02/21/more-out-of-psql/
+
+-- Set what null looks like
+\pset null [nil]
+
+-- When recalling history, condense duplicate commands into a single instance
+\set HISTCONTROL ignoredups
+
+-- Display timing info after each command
+\timing
+
+\echo '\n\n'
+\echo '--------------------------------------------------------------------'
+\echo ' Command         |'
+\echo '--------------------------------------------------------------------'
+\echo ' :command        | description of command goes here'
+\echo '\n\n'
+
+-- Does things!
+\set command 'SQL to execute'
