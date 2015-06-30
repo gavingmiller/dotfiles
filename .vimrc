@@ -129,7 +129,7 @@ augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""
 :set t_Co=256 " 256 colors
 :set background=dark
-:color grb256
+:color railscasts
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 " STATUS LINE
