@@ -126,6 +126,7 @@ augroup END
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 " COLOR
+" Additional colors can be found at: http://vimcolors.com/
 """"""""""""""""""""""""""""""""""""""""""""""""
 :set t_Co=256 " 256 colors
 :set background=dark
