@@ -9,8 +9,8 @@
 # author name, ensuring that we don't destroy anything in the commit message
 # that looks like time.
 #
-# The log format uses } characters between each field, and `column` is later
-# used to split on them. A } in the commit subject or any other field will
+# The log format uses | characters between each field, and `column` is later
+# used to split on them. A | in the commit subject or any other field will
 # break this.
 
 HASH="%C(bold yellow)%h%Creset"
