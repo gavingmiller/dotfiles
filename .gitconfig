@@ -16,6 +16,7 @@
   dc = diff --cached
   amend = commit --amend
   pom = push origin master
+  pr = pull --rebase
 
   tags = tag -n10
 
