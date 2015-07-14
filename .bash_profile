@@ -2,6 +2,10 @@
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# set editor for bundle open
+export EDITOR=vim
+export BUNDLER_EDITOR=vim
+
 # psql
 export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 
