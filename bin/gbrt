@@ -2,6 +2,8 @@
 
 # From:
 #   https://github.com/benhoskings/dot-files/blob/master/files/bin/gbrt
+# Reference in .gitconfig:
+#   b = "!~/bin/gbrt"
 
 def format_commit_info timestamp, time_desc, ref, short_ref, message, ref_name
   [
