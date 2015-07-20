@@ -13,8 +13,8 @@ set nocompatible
 " use relative numbers for line numbering
 set relativenumber
 
-" color the 80th column
-set colorcolumn=120
+" color the 110th column
+set colorcolumn=110
 
 " allow unsaved background buffers and remember marks/undo for them
 set hidden
