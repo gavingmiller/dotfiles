@@ -1,5 +1,17 @@
 Current set of dotfiles for Gavin Miller
 
+## Setup
+
+To install from `~/` run:
+
+```
+git init .
+git remote add -t \* -f origin <repository-url>
+git checkout master
+```
+
+## About
+
 Borrowed heavily from Gary Bernhardt (https://github.com/garybernhardt/dotfiles),
 checkout his awesome Destroy All Software screen casts!
   https://www.destroyallsoftware.com/screencasts
