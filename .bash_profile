@@ -15,6 +15,9 @@ export PATH="/opt/local/bin:$PATH"
 # local bin path
 export PATH="./bin:$PATH"
 
+# work bin path
+export PATH="~/bin/cisco:$PATH"
+
 # global bin path
 export PATH="/Users/gmiller/bin:$PATH"
 
