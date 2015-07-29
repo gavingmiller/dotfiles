@@ -100,10 +100,14 @@ Applications (Parallels)
 Applications (Parallels)/
 Applications/
 Dropbox
-Dropbox (PetroFeed)/
 Dropbox (Personal)/
 iMacros/
 neo4j-community-2.0.0-M06/
 pgadmin.log
-work
 .bundle/
+
+# Cisco specific paths
+.anyconnect
+.cisco/
+.gnupg/
+bin/cisco/
