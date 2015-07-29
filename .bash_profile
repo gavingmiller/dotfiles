@@ -19,7 +19,7 @@ export PATH="./bin:$PATH"
 export PATH="~/bin/cisco:$PATH"
 
 # global bin path
-export PATH="/Users/gmiller/bin:$PATH"
+export PATH="~/bin:$PATH"
 
 # Include scriptx -- bonus script folder for personal scripts
 export PATH="./scriptx:$PATH"
