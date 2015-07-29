@@ -108,6 +108,7 @@ pgadmin.log
 
 # Cisco specific paths
 .anyconnect
+.gituser
 .cisco/
 .gnupg/
 bin/cisco/

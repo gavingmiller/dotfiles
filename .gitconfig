@@ -1,6 +1,8 @@
-[user]
-  name = Gavin Miller
-  email = gavingmiller@gmail.com
+# Allows for user to be specified in seperate file, which is ignored by .gitignore
+# for machine specific git user accounts
+[include]
+  path = ~/.gituser
+
 [color]
   ui = auto
 [core]
