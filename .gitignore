@@ -112,3 +112,5 @@ pgadmin.log
 .cisco/
 .gnupg/
 bin/cisco/
+Architectures/
+work/
