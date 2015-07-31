@@ -2,3 +2,15 @@
 	path = .vim/bundle/command-t
 	url = git://git.wincent.com/command-t.git
   ignore = dirty
+[submodule ".vim/bundle/vim-ruby"]
+	path = .vim/bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby.git
+  ignore = dirty
+[submodule ".vim/bundle/vim-rails"]
+	path = .vim/bundle/vim-rails
+	url = git@github.com:tpope/vim-rails.git
+  ignore = dirty
+[submodule ".vim/bundle/vim-bundler"]
+	path = .vim/bundle/vim-bundler
+	url = git@github.com:tpope/vim-bundler.git
+  ignore = dirty
