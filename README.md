@@ -17,10 +17,10 @@ Additional steps:
 
 ## Updates
 
-- To update Command-T:
+- To update Command-T, vim-rails, vim-ruby, vim-bundler: (TODO: script this)
 
   ```
-  cd ~/.vim/bundle/command-t
+  cd ~/.vim/bundle/<project>
   git pull
   ```
 
