@@ -17,7 +17,7 @@ Additional steps:
 
 ## Updates
 
-- To update Command-T, vim-rails, vim-ruby, vim-bundler: (TODO: script this)
+- To update Command-T, vim-rails, vim-ruby, vim-bundler, vim-fugitive: (TODO: script this)
 
   ```
   cd ~/.vim/bundle/<project>
@@ -34,4 +34,3 @@ Terminal color schemes can be picked up from here:
 https://github.com/gavingmiller/iTerm2-Color-Schemes
 Although I'm not entirely sure if this is where my terminal is pulling its
 colors from. ./bin/bash\_colors.sh might be the actual location.
-

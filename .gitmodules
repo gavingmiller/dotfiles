@@ -14,3 +14,7 @@
 	path = .vim/bundle/vim-bundler
 	url = git@github.com:tpope/vim-bundler.git
   ignore = dirty
+[submodule ".vim/bundle/vim-fugitive"]
+	path = .vim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+  ignore = dirty
