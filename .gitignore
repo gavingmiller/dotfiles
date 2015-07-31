@@ -114,3 +114,5 @@ pgadmin.log
 bin/cisco/
 Architectures/
 work/
+.ovftool.ssldb
+Cisco/
