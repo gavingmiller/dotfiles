@@ -3,15 +3,30 @@
 
 require 'json'
 
-begin
-  puts JSON.pretty_generate JSON.load(ARGF)
-rescue JSON::ParserError => error
-  # Clean up error messages like: 123: unexpected token at '...'
-  puts error.message
-    .sub(/\A\d+: unexpected token at '/, '')
-    .sub(/'\Z/, '')
-  warn "--- Not parseable JSON."
-  exit(1)
-rescue Errno::EPIPE
-  exit(74)
+def main
+  begin
+    puts JSON.pretty_generate JSON.load(ARGF)
+  rescue JSON::ParserError => error
+    # Clean up error messages like: 123: unexpected token at '...'
+    puts error.message
+      .sub(/\A\d+: unexpected token at '/, '')
+      .sub(/'\Z/, '')
+    warn "--- Not parseable JSON."
+    exit(1)
+  rescue Errno::EPIPE
+    exit(74)
+  end
+end
+
+def input_present?
+  # From: http://stackoverflow.com/a/25358600
+  ARGF.filename != "-" or (not STDIN.tty? and not STDIN.closed?)
+end
+
+if input_present?
+  main
+else
+  puts "Example Usage: "
+  puts "  echo '{ \"valid\": \"json\" }' | pjson"
+  exit(0)
 end
