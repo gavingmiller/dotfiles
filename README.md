@@ -15,6 +15,15 @@ Additional steps:
 - Install homebrew
 - Compile Command-T extensions: Run `rake make` in `~/.vim/bundle/command-t`
 
+## Updates
+
+- To update Command-T:
+
+  ```
+  cd ~/.vim/bundle/command-t
+  git pull
+  ```
+
 ## About
 
 Borrowed heavily from Gary Bernhardt (https://github.com/garybernhardt/dotfiles),
