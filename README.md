@@ -10,6 +10,11 @@ git remote add -t \* -f origin <repository-url>
 git checkout master
 ```
 
+Additional steps:
+
+- Install homebrew
+- Compile Command-T extensions: Run `rake make` in `~/.vim/bundle/command-t`
+
 ## About
 
 Borrowed heavily from Gary Bernhardt (https://github.com/garybernhardt/dotfiles),
