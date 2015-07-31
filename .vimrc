@@ -3,7 +3,7 @@
 " Adapted from https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 """"""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
