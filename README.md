@@ -8,6 +8,7 @@ To install from `~/` run:
 git init .
 git remote add -t \* -f origin <repository-url>
 git checkout master
+git submodule update --init
 ```
 
 Create a `~/.gituser` file that looks like the following:
