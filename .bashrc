@@ -44,4 +44,8 @@ job_count() {
   fi
 }
 
-PS1="\W\$(grb_git_prompt)\$(job_count)\$ "
+current_time() {
+  echo `date "+%H:%M:%S"`
+}
+
+PS1="\$(current_time) \W\$(grb_git_prompt)\$(job_count)\$ "
