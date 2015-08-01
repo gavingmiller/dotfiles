@@ -10,6 +10,15 @@ git remote add -t \* -f origin <repository-url>
 git checkout master
 ```
 
+Create a `~/.gituser` file that looks like the following:
+
+```
+[user]
+  name = <your name>
+  email = <commit email>
+```
+
+
 Additional steps:
 
 - Install homebrew
