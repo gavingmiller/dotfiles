@@ -103,7 +103,10 @@ augroup vimrcEx
 
   autocmd! BufRead,BufNewFile *.sass setfiletype sass
 
-  autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:&gt;
+  " detect md as markdown
+  autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+  autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:&gt;
   autocmd BufRead *.markdown  set ai formatoptions=tcroqn2 comments=n:&gt;
 
   " *.pdf.erb files don't have html_indent_tags defined
@@ -114,9 +117,6 @@ augroup vimrcEx
           \ let g:html_indent_tags .= '\|p\|li\|dt\|dd' |
           \ endif
   endif
-
-  " Don't syntax highlight markdown because it's often wrong
-  autocmd! FileType mkd setlocal syn=off
 
   " Leave the return key alone when in command line windows, since it's used
   " to run commands there.
