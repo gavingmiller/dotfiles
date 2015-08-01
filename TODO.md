@@ -1,7 +1,6 @@
 
 #### System
 
-- Number of running jobs in command line prompt
 - Have a look at [ack.vim](https://github.com/mileszs/ack.vim), looks useful
 - Mo's dotfiles setup
 - **Home System**

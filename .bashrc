@@ -35,4 +35,13 @@ grb_git_prompt() {
     echo ${GIT_PROMPT}
   fi
 }
-PS1="\h:\W\$(grb_git_prompt) \$ "
+
+job_count() {
+  local count="$(jobs | wc -l)"
+  if [ "$count" -ne 0 ]; then
+    local prompt="(jobs:$count)"
+    echo ${prompt}
+  fi
+}
+
+PS1="\W\$(grb_git_prompt)\$(job_count)\$ "
