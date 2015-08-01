@@ -105,6 +105,11 @@ iMacros/
 neo4j-community-2.0.0-M06/
 pgadmin.log
 .bundle/
+.cf/
+.weechat/
+Books/
+Caving Videos/
+projects
 
 # Cisco specific paths
 .anyconnect
