@@ -34,3 +34,5 @@
 
   # Branch Output
   b = "!~/bin/gbrt"
+[color "diff"]
+	whitespace = red reverse
