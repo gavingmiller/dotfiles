@@ -11,7 +11,7 @@ call pathogen#infect()
 set nocompatible
 
 " if available use relative numbers for line numbering
-if has("relativenumber")
+if exists("&relativenumber")
   set relativenumber
 else
   set number
