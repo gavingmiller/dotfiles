@@ -6,6 +6,10 @@ export TERM='xterm-color'
 alias ls='ls -G'
 alias ll='ls -lG'
 
+# Bundler
+alias bi='bundle install'
+alias bu='bundle update'
+
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 
