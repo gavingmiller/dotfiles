@@ -52,4 +52,11 @@ current_time() {
   echo `date "+%H:%M:%S"`
 }
 
-PS1="\$(current_time) \W\$(grb_git_prompt)\$(job_count)\$ "
+is_local_machine=$(uname -a | grep -i 'mill')
+if [ $? -eq 0 ]
+then
+  PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
+else
+  PS1="\t ${RED}\h${NORMAL} \W\$(grb_git_prompt)\$(job_count)\$ "
+fi
+
