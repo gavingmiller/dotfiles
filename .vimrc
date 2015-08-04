@@ -10,11 +10,17 @@ call pathogen#infect()
 """"""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 
-" use relative numbers for line numbering
-set relativenumber
+" if available use relative numbers for line numbering
+if has("relativenumber")
+  set relativenumber
+else
+  set number
+endif
 
 " color the 110th column
-set colorcolumn=110
+if exists('+colorcolumn')
+  set colorcolumn=110
+endif
 
 " allow unsaved background buffers and remember marks/undo for them
 set hidden
