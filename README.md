@@ -6,7 +6,7 @@ To install from `~/` run:
 
 ```
 git init .
-git remote add -t \* -f origin <repository-url>
+git remote add -t \* -f origin git@github.com:gavingmiller/dotfiles.git
 git checkout master
 git submodule update --init
 ```
