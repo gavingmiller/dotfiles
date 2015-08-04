@@ -52,11 +52,16 @@ current_time() {
   echo `date "+%H:%M:%S"`
 }
 
-is_local_machine=$(uname -a | grep -i 'mill')
-if [ $? -eq 0 ]
+# OS specific configurations
+# Hat tip to https://github.com/mokhan
+OS=$(uname)
+if [ "$OS" = "Linux" ]
 then
-  PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
-else
+  source ~/.bash/linux/aliases
   PS1="\t ${RED}\h${NORMAL} \W\$(grb_git_prompt)\$(job_count)\$ "
+elif [ "$OS" = "Darwin" ]
+then
+  source ~/.bash/osx/aliases
+  PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
 fi
 
