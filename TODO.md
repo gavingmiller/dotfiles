@@ -31,3 +31,7 @@
 #### Games
 
 - http://www.ftlgame.com/
+
+#### Other
+
+- http://crossfitseattle.com/wp-content/uploads/2011/04/Skill-Levels-1-IV-spreadsheet.pdf
