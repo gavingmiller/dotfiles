@@ -1,11 +1,8 @@
 
 #### System
 
-- Sign up for: https://openid.stackexchange.com/account/register ?
-
 - Have a look at [ack.vim](https://github.com/mileszs/ack.vim), looks useful
 - Script to update vim submodules
-- Setup alternative login for StackOverflow
 - Organize dotfiles better
 - **Home System**
 - **Work System**
@@ -21,6 +18,7 @@
   - ifcfg-eth0:
     - /etc/sysconfig/network-scripts/ifcfg-eth0
     - /etc/init.d/network
+- http://www.openioc.org/
 
 #### Projects
 
