@@ -6,8 +6,7 @@
 - Organize dotfiles better
 - **Home System**
 - **Work System**
-  - Get directory coloring back
-  - Figure out how to bring dotfiles into VMs
+  - Fix .gituser in dotfiles
 
 #### Learning
 
