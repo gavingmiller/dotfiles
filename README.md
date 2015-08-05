@@ -1,4 +1,4 @@
-Current set of dotfiles for Gavin Miller
+Current set of dotfiles for [Gavin Miller](http://gavinmiller.io)
 
 ## Setup
 
