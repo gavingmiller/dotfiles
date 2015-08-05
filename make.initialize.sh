@@ -1,13 +1,13 @@
 #!/bin/bash
 
 ############################################################################################
-# make.symlinks.sh
+# make.initialize.sh
 # This script creates symlinks from the home directory to any desired dotfiles in ~/dotfiles
 # Cribbed from: https://github.com/michaeljsmalley/dotfiles/blob/master/makesymlinks.sh
 
 ########## Variables
-dir=~/dotfiles                    # dotfiles directory
-bakdir=~/dotfiles.bak             # dotfiles backup directory
+dir=~/.dotfiles                    # dotfiles directory
+bakdir=~/.dotfiles.bak             # dotfiles backup directory
 
 # files/folders to symlink in homedir
 links="bin \
@@ -38,3 +38,7 @@ for link in $links; do
     echo "Creating symlink to $link in home directory."
     ln -s $dir/$link ~/$link
 done
+
+# initialize vim submodules
+cd $dir
+git submodule update --init

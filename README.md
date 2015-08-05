@@ -5,10 +5,9 @@ Current set of dotfiles for Gavin Miller
 To install from `~/` run:
 
 ```
-git init .
-git remote add -t \* -f origin git@github.com:gavingmiller/dotfiles.git
-git checkout master
-git submodule update --init
+git clone git@github.com:gavingmiller/dotfiles.git .dotfiles
+cd .dotfiles
+./make.initialize.sh
 ```
 
 Create a `~/.gituser` file that looks like the following:
