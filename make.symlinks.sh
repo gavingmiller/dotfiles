@@ -34,7 +34,7 @@ echo "done"
 # move any existing dotfiles in homedir to dotfiles.bak directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $links
 echo "Moving any existing dotfiles from ~ to $bakdir"
 for link in $links; do
-    mv ~/$link $bakdir
+    mv ~/$link $bakdir &> /dev/null
     echo "Creating symlink to $link in home directory."
     ln -s $dir/$link ~/$link
 done
