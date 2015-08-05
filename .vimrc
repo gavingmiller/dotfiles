@@ -245,6 +245,12 @@ map <leader>gt :CommandTFlush<cr>\|:CommandTTag<cr>
 map <leader>f :CommandTFlush<cr>\|:CommandT<cr>
 map <leader>F :CommandTFlush<cr>\|:CommandT %%<cr>
 
+" directories to ignore
+set wildignore+=build/**,tmp/**
+
+" rails
+set wildignore+=vendor/**,public/system/**,coverage/**,app/assets/fonts/**,app/assets/images/**
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -332,8 +338,5 @@ let NERDTreeIgnore=['.vim$', '\~$']
 " PROJECT SPECIFIC
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-" for crossfit rubymotion project
-set wildignore+=build/**
-
-" for vukani_rails
-set wildignore+=tmp/**,vendor/gems/**,public/system/**,coverage/**
+" command-t ignores for cisco (move to private file if sensitive information required)
+set wildignore+=bundled_gems/**
