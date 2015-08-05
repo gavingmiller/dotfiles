@@ -27,14 +27,14 @@ mkdir -p $bakdir
 echo "done"
 
 # change to the dotfiles directory
-echo -n "Changing to the $dir directory ..."
+echo -n "Changing to the $dir directory ... "
 cd $dir
 echo "done"
 
 # move any existing dotfiles in homedir to dotfiles.bak directory, then create symlinks from the homedir to any files in the ~/dotfiles directory specified in $links
+echo "Moving any existing dotfiles from ~ to $bakdir"
 for link in $links; do
-    echo "Moving any existing dotfiles from ~ to $bakdir"
-    mv ~/.$link ~/$bakdir/
+    mv ~/$link $bakdir
     echo "Creating symlink to $link in home directory."
-    ln -s $dir/$link ~/.$link
+    ln -s $dir/$link ~/$link
 done
