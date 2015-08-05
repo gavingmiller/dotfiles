@@ -1,6 +1,8 @@
 
 #### System
 
+- Sign up for: https://openid.stackexchange.com/account/register ?
+
 - Have a look at [ack.vim](https://github.com/mileszs/ack.vim), looks useful
 - Mo's dotfiles setup
 - Script to update vim submodules
