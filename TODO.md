@@ -4,10 +4,13 @@
 - Sign up for: https://openid.stackexchange.com/account/register ?
 
 - Have a look at [ack.vim](https://github.com/mileszs/ack.vim), looks useful
-- Mo's dotfiles setup
 - Script to update vim submodules
+- Setup alternative login for StackOverflow
+- Organize dotfiles better
 - **Home System**
 - **Work System**
+  - Get directory coloring back
+  - Figure out how to bring dotfiles into VMs
 
 #### Learning
 
@@ -27,3 +30,6 @@
 - Personal Learning Blog
 - SQL for Rails Developers
 
+#### Games
+
+- http://www.ftlgame.com/
