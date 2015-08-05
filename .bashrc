@@ -3,9 +3,6 @@
 # Unbreak broken, non-colored terminal
 export TERM='xterm-color'
 
-alias ls='ls -G'
-alias ll='ls -lG'
-
 # Bundler
 alias bi='bundle install'
 alias bu='bundle update'
