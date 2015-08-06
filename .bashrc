@@ -7,6 +7,9 @@ export TERM='xterm-color'
 alias bi='bundle install'
 alias bu='bundle update'
 
+# Misc
+alias sync_date='ntpdate -b -u pool.ntp.org'
+
 export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
 export GREP_OPTIONS="--color"
 
