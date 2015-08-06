@@ -20,6 +20,9 @@
   pom = push origin master
   pr = pull --rebase
 
+  # Merge upstream into master
+  merge-up = !git fetch upstream && git merge upstream/master && git pom
+
   tags = tag -n10
 
   # Fancy logging.
