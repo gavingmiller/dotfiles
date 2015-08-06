@@ -1,10 +1,10 @@
 
 #### System
 
-- Have a look at [ack.vim](https://github.com/mileszs/ack.vim), looks useful
 - Script to update vim submodules
 - Organize dotfiles better
 - **Home System**
+  - Update ack to 2.12
 - **Work System**
   - Fix .gituser in dotfiles
 
