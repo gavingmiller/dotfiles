@@ -25,6 +25,7 @@
 - SLL
 - Rails Performance Blog
 - Personal Learning Blog
+  - https://github.com/daveliepmann/tufte-css
 - SQL for Rails Developers
 
 #### Games
