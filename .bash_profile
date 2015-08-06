@@ -1,5 +1,5 @@
 # rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$PATH:$HOME/.rbenv/bin"
 if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 
 # set editor for bundle open
@@ -7,34 +7,34 @@ export EDITOR=vim
 export BUNDLER_EDITOR=vim
 
 # psql
-export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
 # vim installation
-export PATH="/opt/local/bin:$PATH"
+export PATH="$PATH:/opt/local/bin"
 
 # local bin path
-export PATH="./bin:$PATH"
+export PATH="$PATH:./bin"
 
 # work bin path
-export PATH="~/bin/cisco:$PATH"
+export PATH="$PATH:~/bin/cisco"
 
 # global bin path
-export PATH="~/bin:$PATH"
+export PATH="$PATH:~/bin"
 
 # Include scriptx -- bonus script folder for personal scripts
-export PATH="./scriptx:$PATH"
+export PATH="$PATH:./scriptx"
 
 # vim
-export PATH="/usr/local/bin:$PATH"
+export PATH="$PATH:/usr/local/bin"
 
 # node
-export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="$PATH:/usr/local/share/npm/bin"
 
 # rabbit mq
-export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:/usr/local/sbin"
 
 # mongodb
-export PATH="/usr/local/mongodb/bin:$PATH"
+export PATH="$PATH:/usr/local/mongodb/bin"
 
 # Set less output options
 # Don't escape coloring
@@ -42,13 +42,13 @@ export LESS="-R"
 
 # Export android home
 export ANDROID_HOME="/usr/local/opt/android-sdk"
-export PATH="$ANDROID_HOME/platform-tools:$PATH"
+export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:/usr/local/heroku/bin"
 
 # Added neo4j to path
-export PATH="/usr/local/neo4j/bin:$PATH"
+export PATH="$PATH:/usr/local/neo4j/bin"
 
 # Include .bashrc and git-completion
 source ~/.bashrc
