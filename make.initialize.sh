@@ -10,6 +10,7 @@ dir=~/.dotfiles                    # dotfiles directory
 bakdir=~/.dotfiles.bak             # dotfiles backup directory
 
 # files/folders to symlink in homedir
+# TODO: get directory listing and blacklist vs whitelist
 links="bin \
       .ackrc \
       .bash \
@@ -17,6 +18,7 @@ links="bin \
       .bash_profile \
       .gitconfig \
       .githelpers \
+      .rspec \
       .pryrc \
       .vim \
       .vimrc"
