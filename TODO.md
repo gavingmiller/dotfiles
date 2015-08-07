@@ -1,4 +1,7 @@
 
+#### Reading
+- http://idlewords.com/talks/web_design_first_100_years.htm
+
 #### System
 
 - Script to update vim submodules
@@ -22,6 +25,7 @@
 #### Projects
 
 - microcorruption.com
+- https://github.com/clio/clio-hiring-simulator
 - SLL
 - Rails Performance Blog
 - Personal Learning Blog
