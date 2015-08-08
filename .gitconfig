@@ -39,3 +39,5 @@
   b = "!~/bin/gbrt"
 [color "diff"]
 	whitespace = red reverse
+[commit]
+  template = ~/.gitmessage
