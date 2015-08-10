@@ -27,6 +27,9 @@ export PATH="$PATH:./scriptx"
 # vim
 export PATH="$PATH:/usr/local/bin"
 
+# git
+export PATH="$PATH:/usr/local/git/bin"
+
 # node
 export PATH="$PATH:/usr/local/share/npm/bin"
 
