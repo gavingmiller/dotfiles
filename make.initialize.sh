@@ -18,6 +18,7 @@ links="bin \
       .bash_profile \
       .gitconfig \
       .githelpers \
+      .gitmessage \
       .rspec \
       .pryrc \
       .vim \
