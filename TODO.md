@@ -39,9 +39,10 @@ http://www.rowetel.com/blog/?p=4316
 
 - http://www.ftlgame.com/
 
-#### Other
+#### CrossFit
 
 - http://crossfitseattle.com/wp-content/uploads/2011/04/Skill-Levels-1-IV-spreadsheet.pdf
+- http://jumpnrope.com/extras/100club/
 
 #### Blog
 /root/.rbenv/versions/2.1.6/lib/ruby/2.1.0/uri/common.rb:176:in `split': bad URI(is not URI?):  (URI::InvalidURIError)
