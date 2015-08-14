@@ -2,6 +2,7 @@
 #### Reading
 http://www.rowetel.com/blog/?p=4316
 -> http://www.mostgoodyoucando.com/
+-> http://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105
 
 #### System
 
