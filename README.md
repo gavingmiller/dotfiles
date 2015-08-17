@@ -22,6 +22,7 @@ Create a `~/.gituser` file that looks like the following:
 Additional steps:
 
 - Install homebrew
+  - `brew install ctags`
 - Compile Command-T extensions: Run `rake make` in `~/.vim/bundle/command-t`
 
 ## Updates
