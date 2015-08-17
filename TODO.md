@@ -48,6 +48,7 @@ Working with Unix processes -> Jessie stormer
 
 - http://crossfitseattle.com/wp-content/uploads/2011/04/Skill-Levels-1-IV-spreadsheet.pdf
 - http://jumpnrope.com/extras/100club/
+- http://www.ctvnews.ca/health/fashion-victim-woman-hospitalized-for-squatting-in-skinny-jeans-1.2435130
 
 ----
 
