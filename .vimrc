@@ -156,6 +156,9 @@ map <leader>y "*y
 " Insert a hash rocket with <ctrl-l> in insert mode
 imap <c-l> <space>=><space>
 
+" Insert a binding.pry
+imap <leader>bp require 'pry'; binding.pry
+
 " " Can't be bothered to understand ESC vs <c-c> in insert mode
 " imap <c-c> <esc>
 
