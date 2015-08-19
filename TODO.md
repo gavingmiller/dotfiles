@@ -4,6 +4,7 @@ http://www.rowetel.com/blog/?p=4316
 -> http://www.mostgoodyoucando.com/
 -> http://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105
 Working with Unix processes -> Jessie stormer
+http://nerds.airbnb.com/anomaly-detection/
 
 #### System
 
