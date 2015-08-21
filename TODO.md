@@ -41,6 +41,7 @@ Working with Unix processes -> Jessie stormer
   - Create a Rails cheatsheet ala:
     - http://cheatrags.com/rspec-matchers
     - http://stackoverflow.com/a/13939599/33226
+    - https://github.com/rspec/rspec-rails
 - !!! https://apphub.io/
 
 #### Games
