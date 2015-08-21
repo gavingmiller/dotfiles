@@ -38,6 +38,9 @@ Working with Unix processes -> Jessie stormer
 - Rails Performance Blog
 - Personal Learning Blog
   - https://github.com/daveliepmann/tufte-css
+  - Create a Rails cheatsheet ala:
+    - http://cheatrags.com/rspec-matchers
+    - http://stackoverflow.com/a/13939599/33226
 - !!! https://apphub.io/
 
 #### Games
