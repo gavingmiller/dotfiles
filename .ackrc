@@ -10,3 +10,4 @@ coffee=.coffee
 
 --ignore-dir=bundled_gems
 --ignore-dir=vendor
+--ignore-dir=doc
