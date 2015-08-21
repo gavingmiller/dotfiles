@@ -43,6 +43,7 @@ http://nerds.airbnb.com/anomaly-detection/
 
 #### Games
 
+- http://store.steampowered.com/app/369110/
 - http://www.ftlgame.com/
 
 #### CrossFit
