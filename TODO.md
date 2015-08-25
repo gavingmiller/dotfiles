@@ -38,8 +38,10 @@ Working with Unix processes -> Jessie stormer
   - http://www.troyhunt.com/2015/08/heres-what-ashley-madison-members-have.html
 - Rails Performance Blog
 - Personal Learning Blog
-  - http://www.codeprovidence.com/category/file-access/
-    -- Example given in File.access is super wrong!
+  - Safe file access in Ruby
+    - http://brakemanscanner.org/docs/warning_types/file_access/index.html
+    - http://www.codeprovidence.com/category/file-access/
+      -- Example given in File.access is super wrong!
   - https://github.com/daveliepmann/tufte-css
   - Create a Rails cheatsheet ala:
     - http://cheatrags.com/rspec-matchers
