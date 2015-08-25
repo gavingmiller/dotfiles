@@ -35,13 +35,17 @@ Working with Unix processes -> Jessie stormer
 - message safari
 - https://github.com/clio/clio-hiring-simulator
 - SLL
+  - http://www.troyhunt.com/2015/08/heres-what-ashley-madison-members-have.html
 - Rails Performance Blog
 - Personal Learning Blog
+  - http://www.codeprovidence.com/category/file-access/
+    -- Example given in File.access is super wrong!
   - https://github.com/daveliepmann/tufte-css
   - Create a Rails cheatsheet ala:
     - http://cheatrags.com/rspec-matchers
     - http://stackoverflow.com/a/13939599/33226
     - https://github.com/rspec/rspec-rails
+    - `match_array` https://relishapp.com/rspec/rspec-rails/docs/matchers/activerecord-relation-match-array
 - !!! https://apphub.io/
 
 #### Games
