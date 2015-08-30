@@ -1,6 +1,7 @@
 
 #### Reading
 https://brandur.org/alerting
+http://www.openioc.org/
 http://www.rowetel.com/blog/?p=4316
 -> http://www.mostgoodyoucando.com/
 -> http://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105
@@ -18,12 +19,9 @@ Working with Unix processes -> Jessie stormer
 
 - ServerSideEvents (SSE) do a POC
 - ssh
-  - Spin up a remote server & practice:
-    - Sending ssh key copy
   - ifcfg-eth0:
     - /etc/sysconfig/network-scripts/ifcfg-eth0
     - /etc/init.d/network
-- http://www.openioc.org/
 - How does rbenv work?!
   - Talk to Tim
 - Building a bash shell in ruby
@@ -34,7 +32,6 @@ Working with Unix processes -> Jessie stormer
 - microcorruption.com
 - SQL for Rails Developers
 - message safari
-- https://github.com/clio/clio-hiring-simulator
 - SLL
   - http://www.troyhunt.com/2015/08/heres-what-ashley-madison-members-have.html
 - Rails Performance Blog
@@ -43,8 +40,7 @@ Working with Unix processes -> Jessie stormer
     - http://brakemanscanner.org/docs/warning_types/file_access/index.html
     - http://www.codeprovidence.com/category/file-access/
       -- Example given in File.access is super wrong!
-  - https://github.com/daveliepmann/tufte-css
-  - Create a Rails cheatsheet ala:
+  - Create an RSpec cheatsheet ala:
     - http://cheatrags.com/rspec-matchers
     - http://stackoverflow.com/a/13939599/33226
     - https://github.com/rspec/rspec-rails
@@ -54,6 +50,7 @@ Working with Unix processes -> Jessie stormer
 
 #### Games
 
+- Space Chem
 - http://store.steampowered.com/app/369110/
 - http://www.ftlgame.com/
 - http://store.steampowered.com/app/367450/
@@ -63,7 +60,6 @@ Working with Unix processes -> Jessie stormer
 
 - http://crossfitseattle.com/wp-content/uploads/2011/04/Skill-Levels-1-IV-spreadsheet.pdf
 - http://jumpnrope.com/extras/100club/
-- http://www.ctvnews.ca/health/fashion-victim-woman-hospitalized-for-squatting-in-skinny-jeans-1.2435130
 
 ----
 
