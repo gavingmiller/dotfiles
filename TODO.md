@@ -1,5 +1,6 @@
 
 #### Reading
+http://nerds.airbnb.com/developer-infrastructure-with-airbnb-and-bundler/
 https://brandur.org/alerting
 http://www.openioc.org/
 http://www.rowetel.com/blog/?p=4316
@@ -53,7 +54,6 @@ Working with Unix processes -> Jessie stormer
 - Space Chem
 - http://store.steampowered.com/app/369110/
 - http://www.ftlgame.com/
-- http://store.steampowered.com/app/367450/
 - http://www.zachtronics.com/tis-100/
 
 #### CrossFit
