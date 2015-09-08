@@ -1,5 +1,9 @@
 
 #### Reading
+http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
+http://cb.vu/unixtoolbox.xhtml
+http://everydayrails.com/2015/07/29/deep-cloning.html
+https://www.cigital.com/papers/download/developer_gambling.php
 http://nerds.airbnb.com/developer-infrastructure-with-airbnb-and-bundler/
 https://brandur.org/alerting
 http://www.openioc.org/
@@ -19,6 +23,7 @@ Working with Unix processes -> Jessie stormer
 #### Learning
 
 - ServerSideEvents (SSE) do a POC
+  - http://stackoverflow.com/questions/5227431/html5-server-sent-events-with-ruby-sinatra
 - ssh
   - ifcfg-eth0:
     - /etc/sysconfig/network-scripts/ifcfg-eth0
@@ -53,6 +58,7 @@ Working with Unix processes -> Jessie stormer
 
 - Space Chem
 - http://store.steampowered.com/app/369110/
+- http://store.steampowered.com/app/214560/
 - http://www.ftlgame.com/
 - http://www.zachtronics.com/tis-100/
 
