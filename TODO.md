@@ -1,4 +1,7 @@
 
+#### Good links
+https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
+
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
@@ -52,6 +55,7 @@ Working with Unix processes -> Jessie stormer
     - https://github.com/rspec/rspec-rails
     - `match_array` https://relishapp.com/rspec/rspec-rails/docs/matchers/activerecord-relation-match-array
 - !!! https://apphub.io/
+  - https://github.com/reactjs/react-rails
 - https://www.khanacademy.org/computing/computer-science/cryptography
 
 #### Games
