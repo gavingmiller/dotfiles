@@ -20,6 +20,9 @@
   pom = push origin master
   pr = pull --rebase
 
+  # Remove remote branches whilst fetching
+  fetch = fetch --prune
+
   # Merge upstream into master
   merge-up = !git fetch upstream && git merge upstream/master && git pom
 
