@@ -26,3 +26,7 @@
   path = .vim/bundle/ack.vim
   url = git@github.com:mileszs/ack.vim.git
   ignore = dirty
+[submodule ".vim/bundle/vim-jsx"]
+  path = .vim/bundle/vim-jsx
+  url = git@github.com:mxw/vim-jsx.git
+  ignore = dirty
