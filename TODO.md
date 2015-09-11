@@ -56,7 +56,6 @@ Working with Unix processes -> Jessie stormer
     - `match_array` https://relishapp.com/rspec/rspec-rails/docs/matchers/activerecord-relation-match-array
 - !!! https://apphub.io/
   - https://github.com/reactjs/react-rails
-- https://www.khanacademy.org/computing/computer-science/cryptography
 
 #### Games
 

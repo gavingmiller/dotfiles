@@ -57,3 +57,7 @@ export PATH="$PATH:/usr/local/neo4j/bin"
 source ~/.bashrc
 source ~/bin/git-completion.bash
 
+# nvm
+export NVM_DIR="/Users/gmiller/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+

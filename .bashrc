@@ -61,4 +61,3 @@ then
   source ~/.bash/osx/aliases
   PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
 fi
-
