@@ -18,10 +18,10 @@ Working with Unix processes -> Jessie stormer
 #### System
 
 - Script to update vim submodules
-- Organize dotfiles better
 - **Home System**
 - **Work System**
   - Fix .gituser in dotfiles
+  - Link in chat: http://chris.beams.io/posts/git-commit/
 
 #### Learning
 
