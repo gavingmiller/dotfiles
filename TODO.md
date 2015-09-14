@@ -1,6 +1,7 @@
 
-#### Good links
+#### Blog Worthy
 https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
+http://chris.beams.io/posts/git-commit/
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
@@ -21,7 +22,6 @@ Working with Unix processes -> Jessie stormer
 - **Home System**
 - **Work System**
   - Fix .gituser in dotfiles
-  - Link in chat: http://chris.beams.io/posts/git-commit/
 
 #### Learning
 
