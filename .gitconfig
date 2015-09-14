@@ -26,6 +26,9 @@
   # Merge upstream into master
   merge-up = !git fetch upstream && git merge upstream/master && git pom
 
+  # Delete remote branch
+  delete-remote-branch = !git push origin --delete
+
   tags = tag -n10
 
   # Fancy logging.
