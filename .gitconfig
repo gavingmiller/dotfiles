@@ -39,7 +39,10 @@
   #   la = all commits, all reachable refs
   r = !git l -30
   ra = !git r --all
-  l = "!source ~/.githelpers && pretty_git_log"
+
+  # Source of bashrc require'd  to access functions in .bash/<platform>/aliases
+  # Ideally this would be less heavy handed
+  l = "!source ~/.githelpers && source ~/.bashrc && pretty_git_log"
   la = !git l --all
 
   # Branch Output

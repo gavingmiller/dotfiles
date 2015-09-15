@@ -1,14 +1,9 @@
 . ~/bin/bash_colors.sh
 
-# Unbreak broken, non-colored terminal
-export TERM='xterm-color'
 
 # Bundler
 alias bi='bundle install'
 alias bu='bundle update'
-
-export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
-export GREP_OPTIONS="--color"
 
 # Customize the command line
 function minutes_since_last_commit {

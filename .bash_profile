@@ -6,6 +6,12 @@ if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
 export EDITOR=vim
 export BUNDLER_EDITOR=vim
 
+export LSCOLORS="ExGxBxDxCxEgEdxbxgxcxd"
+export GREP_OPTIONS="--color"
+
+# Unbreak broken, non-colored terminal
+export TERM='xterm-color'
+
 # psql
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin"
 
