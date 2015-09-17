@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=zDZFcDGpL4U
+https://www.reddit.com/r/Calgary/comments/3lb3jw/resource_dental_office_charges_by_postal_code/
 
 #### Blog Worthy
 https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
@@ -54,6 +56,9 @@ Working with Unix processes -> Jessie stormer
     - http://stackoverflow.com/a/13939599/33226
     - https://github.com/rspec/rspec-rails
     - `match_array` https://relishapp.com/rspec/rspec-rails/docs/matchers/activerecord-relation-match-array
+  - Testing memoization
+    - http://stackoverflow.com/questions/7367000/testing-memoization
+  - Fixing Brakeman syscall vulnerabilities
 - !!! https://apphub.io/
   - https://github.com/reactjs/react-rails
   - https://code.facebook.com/posts/1189117404435352/
