@@ -1,5 +1,5 @@
-https://www.youtube.com/watch?v=zDZFcDGpL4U
-https://www.reddit.com/r/Calgary/comments/3lb3jw/resource_dental_office_charges_by_postal_code/
+Final entry for SVCR:
+  http://weblog.jamisbuck.org/2015/9/12/little-things-heredocs.html
 
 #### Blog Worthy
 https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
