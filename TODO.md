@@ -1,6 +1,3 @@
-Final entry for SVCR:
-  http://weblog.jamisbuck.org/2015/9/12/little-things-heredocs.html
-
 #### Friday
 https://www.youtube.com/watch?v=BzEHItrTMHM
 https://www.youtube.com/watch?v=xk3BvNLeNgw
@@ -13,7 +10,6 @@ http://chris.beams.io/posts/git-commit/
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
 http://everydayrails.com/2015/07/29/deep-cloning.html
-https://www.cigital.com/papers/download/developer_gambling.php
 http://nerds.airbnb.com/developer-infrastructure-with-airbnb-and-bundler/
 https://brandur.org/alerting
 http://www.openioc.org/
@@ -24,10 +20,9 @@ Working with Unix processes -> Jessie stormer
 
 #### System
 
-- Script to update vim submodules
 - **Home System**
+  - Fix subscribe button: http://i.imgur.com/jsdJEzg.jpg
 - **Work System**
-  - Fix .gituser in dotfiles
 
 #### Learning
 
