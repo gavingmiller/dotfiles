@@ -44,10 +44,7 @@ Working with Unix processes -> Jessie stormer
 - microcorruption.com
 - SQL for Rails Developers
 - message safari
-- SLL
-  - http://www.troyhunt.com/2015/08/heres-what-ashley-madison-members-have.html
-- Rails Performance Blog
-- Personal Learning Blog
+- Blog
   - Safe file access in Ruby
     - http://brakemanscanner.org/docs/warning_types/file_access/index.html
     - http://www.codeprovidence.com/category/file-access/
