@@ -22,6 +22,8 @@ Working with Unix processes -> Jessie stormer
 
 - **Home System**
   - Fix subscribe button: http://i.imgur.com/jsdJEzg.jpg
+  - require "shellwords"
+    `ls #{Shellwords.escape user_input}`
 - **Work System**
 
 #### Learning
