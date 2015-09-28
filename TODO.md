@@ -21,9 +21,6 @@ Working with Unix processes -> Jessie stormer
 #### System
 
 - **Home System**
-  - Fix subscribe button: http://i.imgur.com/jsdJEzg.jpg
-  - require "shellwords"
-    `ls #{Shellwords.escape user_input}`
 - **Work System**
 
 #### Learning
@@ -44,7 +41,9 @@ Working with Unix processes -> Jessie stormer
 - microcorruption.com
 - SQL for Rails Developers
 - message safari
-- Blog
+
+#### Blog
+  - Brakeman against: http://www.codetriage.com/
   - Safe file access in Ruby
     - http://brakemanscanner.org/docs/warning_types/file_access/index.html
     - http://www.codeprovidence.com/category/file-access/
