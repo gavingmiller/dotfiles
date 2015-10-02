@@ -1,7 +1,3 @@
-#### Friday
-https://www.youtube.com/watch?v=BzEHItrTMHM
-https://www.youtube.com/watch?v=xk3BvNLeNgw
-
 #### Blog Worthy
 https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
 http://chris.beams.io/posts/git-commit/
@@ -22,6 +18,7 @@ Working with Unix processes -> Jessie stormer
 
 - **Home System**
 - **Work System**
+  * Daily rolling bash history files
 
 #### Learning
 
@@ -59,6 +56,17 @@ Working with Unix processes -> Jessie stormer
 - !!! https://apphub.io/
   - https://github.com/reactjs/react-rails
   - https://code.facebook.com/posts/1189117404435352/
+
+- Opinion
+    https://flex.amazon.com/ && Uber have spawned a new type of "worker" -- the casual worker. This is the person
+    that works for varied wages (in the case of uber X, in the case of amazon flex $18/hr-$25/hr).
+
+    Taking into account costs to employee, lack of benefits, etc.
+
+    Normally things like sweatshops have been arms length, IE you don't know about it unless your or someone
+    else goes digging for the information. Now that type of labour practice is starting to surface in North America.
+
+    Inherently not a good thing.
 
 #### Games
 
