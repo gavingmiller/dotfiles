@@ -1,6 +1,3 @@
-#### Blog Worthy
-https://matthew.mceachen.us/blog/how-to-make-breaking-changes-and-not-break-all-the-things-1315.html
-http://chris.beams.io/posts/git-commit/
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
@@ -17,6 +14,7 @@ Working with Unix processes -> Jessie stormer
 #### System
 
 - **Home System**
+  * Research ESPP
 - **Work System**
   * Daily rolling bash history files
 
@@ -37,7 +35,6 @@ Working with Unix processes -> Jessie stormer
 
 - microcorruption.com
 - SQL for Rails Developers
-- message safari
 
 #### Blog
   - Brakeman against: http://www.codetriage.com/
