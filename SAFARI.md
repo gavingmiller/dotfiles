@@ -20,3 +20,6 @@ https://codeclimate.com/
 https://github.com/rubysec/bundler-audit
 https://github.com/appfolio/gemsurance
 https://github.com/thesp0nge/dawnscanner
+
+### Notes
+https://twitter.com/zrail -- pinned tweet
