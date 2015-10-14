@@ -68,11 +68,10 @@ Working with Unix processes -> Jessie stormer
 #### Games
 
 - Space Chem
-- http://store.steampowered.com/app/369110/
-- http://store.steampowered.com/app/214560/
 - http://www.ftlgame.com/
 - http://www.zachtronics.com/tis-100/
 - http://www.bigpharmagame.com/
+- Replay prison architect
 
 #### CrossFit
 
