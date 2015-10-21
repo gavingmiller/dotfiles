@@ -1,3 +1,4 @@
+https://www.reddit.com/r/ruby/comments/3phvh2/attacking_ruby_on_rails_applications/
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
