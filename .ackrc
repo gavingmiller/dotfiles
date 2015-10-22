@@ -1,3 +1,6 @@
+# General docs: http://beyondgrep.com/documentation/
+# Detailed docs: http://beyondgrep.com/documentation/ack-2.12-man.html
+
 # Treat coffee script files like js
 #   From: http://effectif.com/coffeescript/using-ack-with-coffeescript
 --type-add
@@ -7,6 +10,13 @@ js=.coffee
 #   From: http://effectif.com/coffeescript/using-ack-with-coffeescript
 --type-set
 coffee=.coffee
+
+# Define the "log" filetype
+--type-set
+log:ext:log
+
+# Do not include log files in searches
+--nolog
 
 --ignore-dir=bundled_gems
 --ignore-dir=vendor
