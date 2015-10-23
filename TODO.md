@@ -1,6 +1,3 @@
-https://www.reddit.com/r/ruby/comments/3phvh2/attacking_ruby_on_rails_applications/
-https://trailofbits.github.io/ctf/index.html
-
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
