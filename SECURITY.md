@@ -1,3 +1,13 @@
 http://cryptopals.com/
 https://www.reddit.com/r/ruby/comments/3phvh2/attacking_ruby_on_rails_applications/
 https://trailofbits.github.io/ctf/index.html
+https://www.reddit.com/r/ruby/comments/3q23rc/is_code_climate_a_security_risk/
+https://www.reddit.com/r/ruby/comments/3pxm32/what_are_your_favorite_programming_blogs_and/
+https://www.reddit.com/r/ruby/comments/3pne1r/what_do_you_wish_youd_known_when_starting_with/
+https://www.reddit.com/r/ruby/comments/3ppk7m/as_a_rather_new_person_to_ruby_how_can_i_make/
+https://www.reddit.com/r/ruby/comments/3q7app/where_do_i_begin_coding_and_other_questions_eli5/
+https://www.reddit.com/r/ruby/comments/3q6kge/help_what_to_do_now_im_lost/
+https://www.reddit.com/r/rails/comments/3pw92f/rails_4_invalidauthenticitytoken_raised_by_mobile/
+https://www.reddit.com/r/rails/comments/3psvog/new_to_ruby_on_rails/
+https://www.reddit.com/r/rails/comments/3prv21/advice_to_a_junmed_rails_dev/
+https://www.reddit.com/r/rails/comments/3pouuw/does_anyone_know_of_any_tutorial_for_making_a/
