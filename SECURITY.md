@@ -17,6 +17,10 @@ https://www.reddit.com/r/rails/comments/3qb8tn/would_anybody_be_willing_to_look_
 http://blog.convert.com/infographic-6-tips-to-acquire-customers-with-your-about-page.html
 https://www.reddit.com/r/ruby/comments/3qgwev/if_you_are_a_professional_rubyist_what_is_a_day/
 https://www.reddit.com/r/rails/comments/3qh312/what_is_a_good_test_for_midlevel_and_seniorlevel/
+http://greg.molnar.io/tech/2015/10/28/prevent-rails-information-leaking.html
+  * https://www.reddit.com/r/rails/comments/3qloz7/prevent_information_leaking_in_rails/
+https://thomascannon.me/posts/storing-api-credentials/
+  * https://www.reddit.com/r/rails/comments/3qkqfn/storing_api_credentials_for_a_rails_app/
 
 Learning Links
 
