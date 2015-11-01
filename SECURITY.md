@@ -34,3 +34,4 @@ http://beginners.re/
 http://cisco.safaribooksonline.com/book/networking/security/9781118787397
 http://cisco.safaribooksonline.com/book/software-engineering-and-development/software-testing/9781593273750
 http://www.radare.org/r/
+http://www.amazon.com/lm/R2EN4JTQOCHNBA/ref=cm_lm_pthnk_view?ie=UTF8&lm_bb=
