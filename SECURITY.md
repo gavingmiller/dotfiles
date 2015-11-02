@@ -2,6 +2,8 @@
 
 ### Learning Links
 
+http://cryptopals.com/
+https://trailofbits.github.io/ctf/index.html
 https://wiki.skullsecurity.org/index.php?title=Assembly
 http://www.amazon.com/Practical-Malware-Analysis-Dissecting-Malicious/dp/1593272901
 http://www.amazon.com/The-IDA-Pro-Book-Disassembler/dp/1593272898
