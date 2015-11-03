@@ -1,3 +1,4 @@
+Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 Date Night: http://www.cwhl.ca/view/cwhlalberta
 
 #### Reading
