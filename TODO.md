@@ -1,6 +1,8 @@
 Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 Date Night: http://www.cwhl.ca/view/cwhlalberta
 
+https://www.youtube.com/watch?v=yTkzNHF6rMs
+
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
