@@ -38,3 +38,7 @@
   path = .vim/bundle/vim-less
   url = git@github.com:groenewege/vim-less.git
   ignore = dirty
+[submodule ".vim/bundle/python.vim"]
+  path = .vim/bundle/python.vim
+  url = git@github.com:vim-scripts/python.vim.git
+  ignore = dirty
