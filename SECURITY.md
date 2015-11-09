@@ -2,6 +2,9 @@
 
 ### Learning Links
 
+SAIT Course: http://www.sait.ca/programs-and-courses/continuing-education/courses-and-certificates/it-security-certificate-of-achievement.php
+Online Course: https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/
+
 http://cryptopals.com/
 https://trailofbits.github.io/ctf/index.html
 https://wiki.skullsecurity.org/index.php?title=Assembly
