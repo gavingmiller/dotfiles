@@ -1,6 +1,7 @@
 ### Links
 https://www.reddit.com/r/rails/comments/3sgij5/scared_to_deploy_my_app_how_can_i_make_sure_its/
 https://www.reddit.com/r/rails/comments/3s3x5x/security_using_devise/
+https://www.reddit.com/r/netsec/comments/3psice/im_an_investigative_reporter_ama/
 
 ### Learning Links
 
