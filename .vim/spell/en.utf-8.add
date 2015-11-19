@@ -18,3 +18,7 @@ whitelisted
 S3
 dev
 apps
+XSS
+CVE
+RSS
+codebase
