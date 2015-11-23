@@ -4,6 +4,7 @@ https://www.reddit.com/r/rails/comments/3s3x5x/security_using_devise/
 https://www.reddit.com/r/netsec/comments/3psice/im_an_investigative_reporter_ama/
 https://www.reddit.com/r/rails/comments/3skj9y/multiple_roles_profile_devise/
 https://twitter.com/liamosaur/status/635620669628112897
+http://stackoverflow.com/questions/707587/how-would-you-attack-a-domain-to-look-for-unknown-resources
 
 ### Learning Links
 
