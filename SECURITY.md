@@ -8,6 +8,7 @@ http://stackoverflow.com/questions/707587/how-would-you-attack-a-domain-to-look-
 
 ### Learning Links
 
+PluralSight: http://course.pluralsight.com/ethical-hacking.html
 Metasploit Course: https://www.offensive-security.com/metasploit-unleashed/
 Free Course: https://www.offensive-security.com/information-security-training/
 SAIT Course: http://www.sait.ca/programs-and-courses/continuing-education/courses-and-certificates/it-security-certificate-of-achievement.php
