@@ -12,6 +12,7 @@ http://sha1.gromweb.com/?hash=5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
 ### Learning Links
 
 PluralSight: http://course.pluralsight.com/ethical-hacking.html
+Troy Hunt Course: https://www.pluralsight.com/courses/ethical-hacking-web-applications
 Metasploit Course: https://www.offensive-security.com/metasploit-unleashed/
 Free Course: https://www.offensive-security.com/information-security-training/
 SAIT Course: http://www.sait.ca/programs-and-courses/continuing-education/courses-and-certificates/it-security-certificate-of-achievement.php
