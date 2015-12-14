@@ -35,6 +35,12 @@ end
 }.sort_by {|(timestamp, *rest)|
   timestamp
 }.reverse.map {|commit_info|
+  if commit_info.length != 6
+    # Somewhat handle when raw SHA has been checkout out and method is called
+    # Steps to repo: checkout upstream/master and run
+    commit_info = [commit_info.first, "Long time ago", "", "0000000", "n/a", "n/a" ]
+  end
+
   format_commit_info(*commit_info)
 }.transpose.map {|column|
   max_col_length = column.sort_by {|i| i.length }.last.length
