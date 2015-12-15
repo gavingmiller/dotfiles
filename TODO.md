@@ -4,7 +4,7 @@ Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 Date Night: http://www.cwhl.ca/view/cwhlalberta
 Subscribe: https://www.youtube.com/watch?v=-woNlmVcdjc
 
-https://www.youtube.com/watch?v=yTkzNHF6rMs
+http://www.bash.academy/
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html

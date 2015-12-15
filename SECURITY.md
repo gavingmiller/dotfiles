@@ -32,3 +32,10 @@ http://cisco.safaribooksonline.com/book/networking/security/9781118787397
 http://cisco.safaribooksonline.com/book/software-engineering-and-development/software-testing/9781593273750
 http://www.radare.org/r/
 http://www.amazon.com/lm/R2EN4JTQOCHNBA/ref=cm_lm_pthnk_view?ie=UTF8&lm_bb=
+
+List of TCP/IP ports: https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+
+### Tools
+
+https://www.shodan.io/
+--> https://www.shodan.io/search?query=27017+country%3A%22CA%22&page=2
