@@ -5,6 +5,7 @@ Date Night: http://www.cwhl.ca/view/cwhlalberta
 Subscribe: https://www.youtube.com/watch?v=-woNlmVcdjc
 
 http://www.bash.academy/
+http://chriskottom.com/minitestcookbook/
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
