@@ -42,3 +42,7 @@
   path = .vim/bundle/python.vim
   url = git@github.com:vim-scripts/python.vim.git
   ignore = dirty
+[submodule ".vim/bundle/vim-json"]
+  path = .vim/bundle/vim-json
+  url = git@github.com:elzr/vim-json.git
+  ignore = dirty
