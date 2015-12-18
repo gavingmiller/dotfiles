@@ -34,6 +34,8 @@ http://www.radare.org/r/
 http://www.amazon.com/lm/R2EN4JTQOCHNBA/ref=cm_lm_pthnk_view?ie=UTF8&lm_bb=
 
 List of TCP/IP ports: https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+Ethics of hacking: https://news.ycombinator.com/item?id=10754627
+  * Don't pivot on servers unless you have permission
 
 ### Tools
 
