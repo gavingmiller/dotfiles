@@ -46,3 +46,7 @@
   path = .vim/bundle/vim-json
   url = git@github.com:elzr/vim-json.git
   ignore = dirty
+[submodule ".vim/bundle/vim-haproxy"]
+  path = .vim/bundle/vim-haproxy
+  url = git@github.com:vim-scripts/haproxy.git
+  ignore = dirty
