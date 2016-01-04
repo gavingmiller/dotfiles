@@ -343,3 +343,6 @@ let NERDTreeIgnore=['.vim$', '\~$']
 
 " command-t ignores for cisco (move to private file if sensitive information required)
 set wildignore+=bundled_gems/**
+
+" Syntax highlighting for haproxy
+au BufRead,BufNewFile haproxy* set ft=haproxy
