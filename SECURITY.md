@@ -5,6 +5,8 @@ https://www.reddit.com/r/netsec/comments/3psice/im_an_investigative_reporter_ama
 https://www.reddit.com/r/rails/comments/3skj9y/multiple_roles_profile_devise/
 https://twitter.com/liamosaur/status/635620669628112897
 http://stackoverflow.com/questions/707587/how-would-you-attack-a-domain-to-look-for-unknown-resources
+http://blog.mailgun.com/security-guide-basic-infrastructure-security/
+  https://news.ycombinator.com/item?id=10848493
 
 http://md5.gromweb.com/?md5=5f4dcc3b5aa765d61d8327deb882cf99
 http://sha1.gromweb.com/?hash=5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
