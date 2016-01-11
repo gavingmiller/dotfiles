@@ -1,3 +1,10 @@
+### CTFs
+
+http://cyberforensicschallenge.com/challenges/mini-challenges/
+https://picoctf.org 
+https://ctf.isis.poly.edu/ 
+http://ctftime.org
+
 ### Links
 https://www.reddit.com/r/rails/comments/3sgij5/scared_to_deploy_my_app_how_can_i_make_sure_its/
 https://www.reddit.com/r/rails/comments/3s3x5x/security_using_devise/
@@ -10,6 +17,8 @@ http://blog.mailgun.com/security-guide-basic-infrastructure-security/
 - Run nmap against my home network
 http://codahale.com/how-to-safely-store-a-password/
 - demonstrate cracking passwords against weak hashing functions
+http://neonprimetime.blogspot.com/2016/01/dom-xss-101-walk-through.html
+- Reflective XSS
 
 http://md5.gromweb.com/?md5=5f4dcc3b5aa765d61d8327deb882cf99
 http://sha1.gromweb.com/?hash=5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
