@@ -4,6 +4,7 @@ http://cyberforensicschallenge.com/challenges/mini-challenges/
 https://picoctf.org 
 https://ctf.isis.poly.edu/ 
 http://ctftime.org
+https://www.holidayhackchallenge.com/
 
 ### Links
 https://www.reddit.com/r/rails/comments/3sgij5/scared_to_deploy_my_app_how_can_i_make_sure_its/
