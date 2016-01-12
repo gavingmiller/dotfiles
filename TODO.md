@@ -38,6 +38,8 @@ Working with Unix processes -> Jessie stormer
   - Talk to Tim
 - Building a bash shell in ruby
 - gdb
+- Elevator simulator: https://github.com/mshang/python-elevator-challenge/blob/master/README.md
+  - Visual: http://play.elevatorsaga.com/
 
 #### Projects
 
