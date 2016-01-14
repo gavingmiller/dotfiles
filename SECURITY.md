@@ -32,6 +32,7 @@ Metasploit Course: https://www.offensive-security.com/metasploit-unleashed/
 Free Course: https://www.offensive-security.com/information-security-training/
 SAIT Course: http://www.sait.ca/programs-and-courses/continuing-education/courses-and-certificates/it-security-certificate-of-achievement.php
 Online Course: https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/
+Malware Analysis - CSCI: https://github.com/RPISEC/Malware
 
 http://security.stackexchange.com/
 http://cryptopals.com/
