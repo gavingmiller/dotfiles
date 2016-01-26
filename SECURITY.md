@@ -1,3 +1,6 @@
+Timing Attack Algorithm(partial) paper:
+  https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
+
 ### CTFs
 
 http://cyberforensicschallenge.com/challenges/mini-challenges/
