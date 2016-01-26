@@ -20,6 +20,8 @@ http://codahale.com/how-to-safely-store-a-password/
 - demonstrate cracking passwords against weak hashing functions
 http://neonprimetime.blogspot.com/2016/01/dom-xss-101-walk-through.html
 - Reflective XSS
+https://github.com/albinowax/ActiveScanPlusPlus
+- Security tool
 
 http://md5.gromweb.com/?md5=5f4dcc3b5aa765d61d8327deb882cf99
 http://sha1.gromweb.com/?hash=5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
