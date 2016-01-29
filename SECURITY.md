@@ -1,5 +1,6 @@
 Timing Attack Algorithm(partial) paper:
   https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
+https://github.com/sinatra/rack-protection
 
 ### CTFs
 
