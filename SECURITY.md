@@ -1,6 +1,8 @@
 Timing Attack Algorithm(partial) paper:
   https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
 https://github.com/sinatra/rack-protection
+https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/AnatomyOfRailsVuln-CVE-2014-0130.pdf
+  -> Good paper explaining RCE potential of a CVE
 
 ### CTFs
 
