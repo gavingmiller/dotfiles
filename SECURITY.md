@@ -3,6 +3,10 @@ Timing Attack Algorithm(partial) paper:
 https://github.com/sinatra/rack-protection
 https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/AnatomyOfRailsVuln-CVE-2014-0130.pdf
   -> Good paper explaining RCE potential of a CVE
+https://github.com/tcstool/NoSQLMap
+  -> NoSQL injection tool
+https://www.offensive-security.com/kali-linux-nethunter-download/
+  -> portable android device for pen testing
 
 ### CTFs
 
