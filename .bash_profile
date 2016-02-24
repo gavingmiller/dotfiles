@@ -54,7 +54,7 @@ export ANDROID_HOME="/usr/local/opt/android-sdk"
 export PATH="$PATH:$ANDROID_HOME/platform-tools"
 
 # Added by the Heroku Toolbelt
-export PATH="$PATH:/usr/local/heroku/bin"
+export PATH="/usr/local/heroku/bin:$PATH"
 
 # Added neo4j to path
 export PATH="$PATH:/usr/local/neo4j/bin"

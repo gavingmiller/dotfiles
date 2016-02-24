@@ -3,6 +3,7 @@ http://make8bitart.com/
 Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 Date Night: http://www.cwhl.ca/view/cwhlalberta
 Subscribe: https://www.youtube.com/watch?v=-woNlmVcdjc
+http://hashcat.net/oclhashcat/
 
 http://www.bash.academy/
 http://chriskottom.com/minitestcookbook/
@@ -78,11 +79,7 @@ Working with Unix processes -> Jessie stormer
 
 #### Games
 
-- Space Chem
-- http://www.ftlgame.com/
 - http://www.zachtronics.com/tis-100/
-- http://www.bigpharmagame.com/
-- Replay prison architect
 
 #### CrossFit
 
