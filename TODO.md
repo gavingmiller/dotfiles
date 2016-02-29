@@ -8,6 +8,7 @@ http://hashcat.net/oclhashcat/
 http://www.bash.academy/
 http://chriskottom.com/minitestcookbook/
 http://ruby-community.com/pages/user_rules
+https://twitter.com/patio11/status/699994670718259200
 
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html

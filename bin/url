@@ -1,0 +1,18 @@
+#!/bin/bash
+
+git_repository()
+{
+  git config --get remote.origin.url | cut -d/ -f1 | cut -d: -f1 | cut -d@ -f2
+}
+
+git_username()
+{
+  git config --get remote.origin.url | cut -d: -f2 | cut -d/ -f1
+}
+
+git_projectname()
+{
+  git config --get remote.origin.url | cut -d'/' -f2 | cut -d'.' -f1
+}
+
+echo "https://$(git_repository)/$(git_username)/$(git_projectname)"
