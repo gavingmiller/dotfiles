@@ -7,6 +7,8 @@ https://github.com/tcstool/NoSQLMap
   -> NoSQL injection tool
 https://www.offensive-security.com/kali-linux-nethunter-download/
   -> portable android device for pen testing
+Might have something useful:
+  -> http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
 
 ### CTFs
 
