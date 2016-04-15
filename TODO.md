@@ -81,6 +81,7 @@ Working with Unix processes -> Jessie stormer
 #### Games
 
 - http://www.zachtronics.com/tis-100/
+- Human Resource Machine
 
 #### CrossFit
 

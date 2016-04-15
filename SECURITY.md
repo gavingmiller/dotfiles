@@ -9,6 +9,8 @@ https://www.offensive-security.com/kali-linux-nethunter-download/
   -> portable android device for pen testing
 Might have something useful:
   -> http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
+Ruby code in voting machine compromised:
+  -> [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
 
 ### CTFs
 
