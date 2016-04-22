@@ -11,6 +11,8 @@ Might have something useful:
   -> http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
 Ruby code in voting machine compromised:
   -> [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
+InfoSec Reading list
+  -> https://github.com/jacobian/infosec-engineering
 
 ### CTFs
 
