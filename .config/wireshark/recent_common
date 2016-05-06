@@ -1,0 +1,83 @@
+# Recent settings file for Wireshark 2.0.3.
+#
+# This file is regenerated each time Wireshark is quit.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/USBHUB.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/maccdc2012_00005.pcap
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/VLAN_VTP.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/FragmentTrace.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/ICMP.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/IP-trace1.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/SimpleHTTP.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/TCP-trace3.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/mpegudp-stream1.pcapng
+recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/mac_split_00000_20120316103612.pcap
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+recent.capture_filter: host 192.168.1.120
+recent.capture_filter: host 10.118.8.83
+recent.capture_filter.en0: host 192.168.1.120
+recent.capture_filter.en0: host 10.118.8.83
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: urlencoded-form
+recent.display_filter: http and http.request.method == "POST"
+recent.display_filter: http.request.method == "POST"
+recent.display_filter: http
+recent.display_filter: vlan.priority <= 7
+recent.display_filter: vlan.priority == 7
+recent.display_filter: ip.addr==192.168.1.8 && tcp.port==20273 && ip.addr==74.125.227.60 && tcp.port==80
+recent.display_filter: ip.addr eq 192.168.1.8 and ip.addr eq 151.164.1.8
+recent.display_filter: ip.addr eq 74.125.227.12 and ip.addr eq 192.168.1.8 and frame.cap_len <= 54
+recent.display_filter: ip.addr eq 74.125.227.12 and ip.addr eq 192.168.1.8 and frame.cap_len <= 60
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 325
+gui.geometry_main_y: 90
+gui.geometry_main_width: 1827
+gui.geometry_main_height: 1248
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: FALSE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 250
+
+# Last used Configuration Profile.
+gui.last_used_profile: Better Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if npf.sys isn't loaded on Windows >= 6.0.
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_no_npf: TRUE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"

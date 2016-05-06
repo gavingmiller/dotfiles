@@ -16,6 +16,7 @@ links="bin \
       .bash \
       .bashrc \
       .bash_profile \
+      .config \
       .gitconfig \
       .githelpers \
       .gitmessage \
