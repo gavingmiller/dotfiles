@@ -15,6 +15,11 @@ InfoSec Reading list
   -> https://github.com/jacobian/infosec-engineering
 JWT in Rack
   -> https://auth0.com/blog/2016/06/02/ruby-authentication-secure-rack-apps-with-jwt
+Hacking Rails
+  -> http://phrack.org/issues/69/12.html#article
+Commix
+  -> Command Injection Toolkit
+  -> https://github.com/stasinopoulos/commix
 
 ### CTFs
 

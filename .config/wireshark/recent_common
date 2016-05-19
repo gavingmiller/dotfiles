@@ -56,7 +56,7 @@ gui.geometry_status_pane: 250
 gui.geometry_status_pane_right: 250
 
 # Last used Configuration Profile.
-gui.last_used_profile: Better Default
+gui.last_used_profile: Better TCP Default
 
 # WLAN statistics upper pane size.
 # Decimal number.
