@@ -13,6 +13,8 @@ Ruby code in voting machine compromised:
   -> [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
 InfoSec Reading list
   -> https://github.com/jacobian/infosec-engineering
+JWT in Rack
+  -> https://auth0.com/blog/2016/06/02/ruby-authentication-secure-rack-apps-with-jwt
 
 ### CTFs
 
