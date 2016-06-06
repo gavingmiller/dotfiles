@@ -20,6 +20,8 @@ Hacking Rails
 Commix
   -> Command Injection Toolkit
   -> https://github.com/stasinopoulos/commix
+Preventative vs Reactive
+  -> https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e#.8dn6176dh
 
 ### CTFs
 
