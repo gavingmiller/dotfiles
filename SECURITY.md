@@ -24,6 +24,9 @@ Preventative vs Reactive
   -> https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e#.8dn6176dh
 Platform to "hack" against
   -> https://hack.me/
+NCCGroup && Boilerman
+  -> https://github.com/tomekr/boilerman
+  -> https://www.blackhat.com/docs/eu-15/materials/eu-15-Jarmoc-Going-AUTH-The-Rails-On-A-Crazy-Train-wp.pdf
 
 ### CTFs
 
