@@ -21,14 +21,18 @@
   pom = push origin master
   pr = pull --rebase
 
-  # Remove remote branches whilst fetching
-  fetch = fetch --prune
+  # fetch-all => fetch & prune origin and upstream
+  fa = !git fetch --prune && git fetch upstream --prune
 
   # Merge upstream into master
   merge-up = !git fetch upstream && git merge upstream/master && git pom
 
   # Delete remote branch
   delete-remote-branch = !git push origin --delete
+
+  # Delete remote tag
+  # git tag -d release01
+  # git push origin :refs/tags/release01
 
   tags = tag -n10
 
