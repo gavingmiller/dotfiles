@@ -5,6 +5,9 @@
 alias bi='bundle install'
 alias bu='bundle update'
 
+alias catkey="cat $HOME/.ssh/id_rsa.pub"
+alias copykey="catkey | pbcopy"
+
 # Customize the command line
 function minutes_since_last_commit {
   now=`date +%s`
