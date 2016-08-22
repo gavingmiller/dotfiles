@@ -29,6 +29,8 @@ NCCGroup && Boilerman
   -> https://www.blackhat.com/docs/eu-15/materials/eu-15-Jarmoc-Going-AUTH-The-Rails-On-A-Crazy-Train-wp.pdf
 html_safe
   -> https://stackoverflow.com/questions/4251284/raw-vs-html-safe-vs-h-to-unescape-html#comment31625205_12399977
+Public PenTests
+  -> https://github.com/juliocesarfort/public-pentesting-reports
 
 ### CTFs
 
