@@ -253,7 +253,7 @@ map <leader>f :CtrlP<cr>
 map <leader>F :CtrlP<cr>
 
 " directories to ignore
-set wildignore+=build/**,tmp/**
+set wildignore+=*/build/*,*/tmp/*
 
 " rails
 set wildignore+=vendor/**,public/system/**,coverage/**,app/assets/fonts/**,app/assets/images/**
