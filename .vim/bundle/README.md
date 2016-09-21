@@ -2,7 +2,8 @@
 ### Adding New Plugins:
 
 ```
-git submodule add <repo>
+# cwd = .dotfiles/
+git submodule add <repo> .vim/bundle/
 git submodule init
 ```
 
