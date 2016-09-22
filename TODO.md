@@ -10,6 +10,9 @@ http://chriskottom.com/minitestcookbook/
 http://ruby-community.com/pages/user_rules
 https://twitter.com/patio11/status/699994670718259200
 
+* Software Projects:
+  * https://news.ycombinator.com/item?id=12553837
+
 #### Reading
 http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
