@@ -31,6 +31,8 @@ html_safe
   -> https://stackoverflow.com/questions/4251284/raw-vs-html-safe-vs-h-to-unescape-html#comment31625205_12399977
 Public PenTests
   -> https://github.com/juliocesarfort/public-pentesting-reports
+Conversion tools
+  -> https://gchq.github.io/CyberChef/#
 
 ### CTFs
 
