@@ -33,6 +33,8 @@ Public PenTests
   -> https://github.com/juliocesarfort/public-pentesting-reports
 Conversion tools
   -> https://gchq.github.io/CyberChef/#
+How to start Reversing Malware -- good listing of resources:
+  -> http://amanda.secured.org/how-to-start-reverse-engineering-malware/
 
 ### CTFs
 
