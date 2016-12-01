@@ -1,40 +1,40 @@
-Timing Attack Algorithm(partial) paper:
-  https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
-https://github.com/sinatra/rack-protection
-https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/AnatomyOfRailsVuln-CVE-2014-0130.pdf
-  -> Good paper explaining RCE potential of a CVE
-https://github.com/tcstool/NoSQLMap
-  -> NoSQL injection tool
-https://www.offensive-security.com/kali-linux-nethunter-download/
-  -> portable android device for pen testing
-Might have something useful:
-  -> http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
-Ruby code in voting machine compromised:
-  -> [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
-InfoSec Reading list
-  -> https://github.com/jacobian/infosec-engineering
-JWT in Rack
-  -> https://auth0.com/blog/2016/06/02/ruby-authentication-secure-rack-apps-with-jwt
-Hacking Rails
-  -> http://phrack.org/issues/69/12.html#article
-Commix
-  -> Command Injection Toolkit
-  -> https://github.com/stasinopoulos/commix
-Preventative vs Reactive
-  -> https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e#.8dn6176dh
-Platform to "hack" against
-  -> https://hack.me/
-NCCGroup && Boilerman
-  -> https://github.com/tomekr/boilerman
-  -> https://www.blackhat.com/docs/eu-15/materials/eu-15-Jarmoc-Going-AUTH-The-Rails-On-A-Crazy-Train-wp.pdf
-html_safe
-  -> https://stackoverflow.com/questions/4251284/raw-vs-html-safe-vs-h-to-unescape-html#comment31625205_12399977
-Public PenTests
-  -> https://github.com/juliocesarfort/public-pentesting-reports
-Conversion tools
-  -> https://gchq.github.io/CyberChef/#
-How to start Reversing Malware -- good listing of resources:
-  -> http://amanda.secured.org/how-to-start-reverse-engineering-malware/
+* Timing Attack Algorithm(partial) paper:
+    * https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
+    * https://github.com/sinatra/rack-protection
+* Good paper explaining RCE potential of a CVE 
+    * https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/AnatomyOfRailsVuln-CVE-2014-0130.pdf
+* NoSQL injection tool
+    * https://github.com/tcstool/NoSQLMap
+* portable android device for pen testing
+    * https://www.offensive-security.com/kali-linux-nethunter-download/
+* Might have something useful:
+    * http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
+* Ruby code in voting machine compromised:
+    * [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
+* InfoSec Reading list
+    * https://github.com/jacobian/infosec-engineering
+* JWT in Rack
+    * https://auth0.com/blog/2016/06/02/ruby-authentication-secure-rack-apps-with-jwt
+* Hacking Rails
+    * http://phrack.org/issues/69/12.html#article
+* Commix
+    * Command Injection Toolkit
+    * https://github.com/stasinopoulos/commix
+* Preventative vs Reactive
+    * https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e#.8dn6176dh
+* Platform to "hack" against
+    * https://hack.me/
+* NCCGroup && Boilerman
+    * https://github.com/tomekr/boilerman
+    * https://www.blackhat.com/docs/eu-15/materials/eu-15-Jarmoc-Going-AUTH-The-Rails-On-A-Crazy-Train-wp.pdf
+* html_safe
+    * https://stackoverflow.com/questions/4251284/raw-vs-html-safe-vs-h-to-unescape-html#comment31625205_12399977
+* Public PenTests
+    * https://github.com/juliocesarfort/public-pentesting-reports
+* Conversion tools
+    * https://gchq.github.io/CyberChef/#
+* How to start Reversing Malware -- good listing of resources:
+    * http://amanda.secured.org/how-to-start-reverse-engineering-malware/
 
 ### CTFs
 
