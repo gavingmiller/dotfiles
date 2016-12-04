@@ -1,11 +1,11 @@
 
 
-### Guides
+### Ruby Guides
 
 * [_why's Poignant Guide to Ruby](http://poignant.guide/book/chapter-1.html)
 * [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/)
 
-### Videos
+### Ruby / Rails Videos
 
 * [Rail's for Zombies](http://railsforzombies.org/)
 * [TryRuby](https://www.codeschool.com/courses/try-ruby)

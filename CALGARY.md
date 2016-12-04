@@ -34,3 +34,6 @@ Calgary Success Stories
 * Veer
 * Immunet
 
+# Finding a Job ~in Calgary~
+
+* https://twitter.com/patio11/status/699994670718259200
