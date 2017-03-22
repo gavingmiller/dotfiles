@@ -50,3 +50,7 @@
   path = .vim/bundle/ctrlp.vim
   url = git@github.com:ctrlpvim/ctrlp.vim.git
   ignore = dirty
+[submodule ".vim/bundle/vim-php"]
+	path = .vim/bundle/vim-php
+	url = https://github.com/StanAngeloff/php.vim.git
+  ignore = dirty
