@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+require 'pp'
+
+if ARGV.count != 1
+  puts "Usage: dump-gemspec <file_path>"
+  exit(1)
+end
+
+filename = ARGV.first
+
+compressed = File.open(filename).read
+inflated = Gem.inflate(compressed)
+unmarshalled = Marshal.load(inflated)
+
+pp unmarshalled
+pp unmarshalled.dependencies
+
+exit(0)
