@@ -1,19 +1,27 @@
 #!/usr/bin/env ruby
 
 require 'pp'
+require 'pry'
 
-if ARGV.count != 1
-  puts "Usage: dump-gemspec <file_path>"
-  exit(1)
+def dump_gemspec(compressed_content)
+  inflated = Gem.inflate(compressed_content)
+  unmarshalled = Marshal.load(inflated)
+
+  [unmarshalled, unmarshalled.dependencies]
 end
 
-filename = ARGV.first
+if !STDIN.tty?
+  compressed_content = STDIN.read
+elsif ARGV.count != 1
+  puts "Usage: "
+  puts "  dump-gemspec <file_path>"
+  puts "  cat content | dump-gemspec"
+  exit(1)
+else
+  filename = ARGV.first
+  compressed_content = File.open(filename).read
+end
 
-compressed = File.open(filename).read
-inflated = Gem.inflate(compressed)
-unmarshalled = Marshal.load(inflated)
-
-pp unmarshalled
-pp unmarshalled.dependencies
+pp dump_gemspec(compressed_content)
 
 exit(0)
