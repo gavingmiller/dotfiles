@@ -19,5 +19,6 @@ log:ext:log
 --nolog
 
 --ignore-dir=bundled_gems
+--ignore-dir=build
 --ignore-dir=vendor
 --ignore-dir=doc
