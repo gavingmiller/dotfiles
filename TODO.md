@@ -32,14 +32,12 @@ Working with Unix processes -> Jessie stormer
 - How does rbenv work?!
   - Talk to Tim
 - Building a bash shell in ruby
-- gdb
 - Elevator simulator: https://github.com/mshang/python-elevator-challenge/blob/master/README.md
   - Visual: http://play.elevatorsaga.com/
 
 #### Projects
 
 - microcorruption.com
-- SQL for Rails Developers
 
 #### Blog
 
@@ -79,8 +77,6 @@ Working with Unix processes -> Jessie stormer
     * https://www.offensive-security.com/kali-linux-nethunter-download/
 * Might have something useful:
     * http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
-* Ruby code in voting machine compromised:
-    * [https://youtu.be/_GjmRwfkRXY?t=1h53s](https://youtu.be/_GjmRwfkRXY?t=1h53s)
 * InfoSec Reading list
     * https://github.com/jacobian/infosec-engineering
 * JWT in Rack
