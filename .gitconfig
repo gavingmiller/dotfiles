@@ -52,6 +52,6 @@
   # Branch Output
   b = "!~/bin/gbrt"
 [color "diff"]
-	whitespace = red reverse
+  whitespace = red reverse
 [commit]
   template = ~/.gitmessage
