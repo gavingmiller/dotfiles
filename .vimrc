@@ -103,6 +103,9 @@ augroup vimrcEx
   " html syntax highlighting and indent rules
   autocmd BufNewFile,BufRead *.pdf.erb let b:eruby_subtype='html'|set filetype=eruby
 
+  " for bash -- couldn't figure out how to detect bash but this works for now
+  autocmd FileType * set tabstop=4|set shiftwidth=4|set noexpandtab
+
   " for ruby, autoindent with two spaces, always expand tabs
   autocmd FileType ruby,haml,eruby,yaml,html,javascript,sass,cucumber set ai sw=2 sts=2 et
   autocmd FileType python set sw=4 sts=4 et
