@@ -3,5 +3,5 @@ alias ll='ls -al'
 
 # git_col is a platform specific version of column for pretty_git_log in .githelpers
 function git_col() {
-  column -s '~' -t
+  column -s '}' -t
 }

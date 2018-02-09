@@ -6,5 +6,5 @@ alias sync_date='ntpdate -b -u pool.ntp.org'
 
 # git_col is a platform specific version of column for pretty_git_log in .githelpers
 function git_col() {
-  awk -F'~' '{ printf "%-40s %-26s %-30s %-120s\n", $1, $2, $3, $4}'
+  awk -F'}' '{ printf "%-40s %-26s %-30s %-120s\n", $1, $2, $3, $4}'
 }
