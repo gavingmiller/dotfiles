@@ -1,4 +1,6 @@
-#!/usr/bin/env ruby --disable-gems
+#!/usr/bin/env ruby
+#--disable-gems
+#removed disable-gems ... not working in PC context
 
 ANSI_BLACK="\033[0;30m"
 ANSI_BLACK_BOLD="\033[0;30;1m"
@@ -58,8 +60,13 @@ def colorize_line(line)
     ].join('')
 end
 
+# The regex isn't parsing correctly (likely ruby version)
+# Ignore for now on linux
+require 'open3'
+out, _ = Open3.capture2('uname')
+
 colorized = $stdin.readlines.map(&:strip).map do |line|
-    colorize_line(line)
+  out.strip.chomp == 'Linux' ? line : colorize_line(line)
 end.join("\n")
 
 begin
