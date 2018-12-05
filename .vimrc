@@ -10,6 +10,12 @@ call pathogen#infect()
 """"""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 
+" tell it to use an undo file
+set undodir=.undo
+set undodir+=~/.vimtmp
+set undofile
+set undolevels=10000
+
 " if available use relative numbers for line numbering
 if exists("&relativenumber")
   set relativenumber
