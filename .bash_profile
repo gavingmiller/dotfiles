@@ -30,10 +30,22 @@ export PATH="$PATH:/usr/local/git/bin"
 export LESS="-R"
 
 # Include .bashrc and git-completion
-source ~/.bashrc
-source ~/bin/git-completion.bash
+source $HOME/.bashrc
+source $HOME/bin/git-completion.bash
 
 # nvm
 export NVM_DIR="/Users/gmiller/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# Brew openssl
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
+# Brew curl
+export PATH="/usr/local/opt/curl/bin:$PATH"
+
+# Brew sbin
+export PATH="/usr/local/sbin:$PATH"
+
+# Packer
+# https://www.packer.io/intro/getting-started/install.html
+export PATH="/Users/gavmille/go/src/github.com/hashicorp/packer/bin:$PATH"
