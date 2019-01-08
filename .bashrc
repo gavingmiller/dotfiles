@@ -1,6 +1,5 @@
 . ~/bin/bash_colors.sh
 
-
 # Bundler
 alias bi='bundle install'
 alias bu='bundle update'

@@ -5,16 +5,16 @@
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
 
-recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/USBHUB.pcapng
-recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/maccdc2012_00005.pcap
-recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/VLAN_VTP.pcapng
-recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/FragmentTrace.pcapng
-recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/ICMP.pcapng
 recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/IP-trace1.pcapng
 recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/SimpleHTTP.pcapng
 recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/TCP-trace3.pcapng
 recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/mpegudp-stream1.pcapng
 recent.capture_file: /Users/gavmille/work/Bugs : Notes/training/Wireshark/mac_split_00000_20120316103612.pcap
+recent.capture_file: /Users/gavmille/Downloads/brute.pcap
+recent.capture_file: /Users/gavmille/Downloads/network-degree-part1.pcap
+recent.capture_file: /Users/gavmille/Downloads/somefilename.pcap
+recent.capture_file: /Users/gavmille/Downloads/somefilename.pcap.old
+recent.capture_file: /Users/gavmille/Downloads/disabled_https_policy.pcap
 
 ######## Recent capture filters (latest last), cannot be altered through command line ########
 
@@ -25,6 +25,7 @@ recent.capture_filter.en0: host 10.118.8.83
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: http.response.code != 401
 recent.display_filter: urlencoded-form
 recent.display_filter: http and http.request.method == "POST"
 recent.display_filter: http.request.method == "POST"
@@ -34,14 +35,13 @@ recent.display_filter: vlan.priority == 7
 recent.display_filter: ip.addr==192.168.1.8 && tcp.port==20273 && ip.addr==74.125.227.60 && tcp.port==80
 recent.display_filter: ip.addr eq 192.168.1.8 and ip.addr eq 151.164.1.8
 recent.display_filter: ip.addr eq 74.125.227.12 and ip.addr eq 192.168.1.8 and frame.cap_len <= 54
-recent.display_filter: ip.addr eq 74.125.227.12 and ip.addr eq 192.168.1.8 and frame.cap_len <= 60
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 325
-gui.geometry_main_y: 90
-gui.geometry_main_width: 1827
-gui.geometry_main_height: 1248
+gui.geometry_main_x: 240
+gui.geometry_main_y: 54
+gui.geometry_main_width: 960
+gui.geometry_main_height: 768
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).

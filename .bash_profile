@@ -13,16 +13,14 @@ export GREP_OPTIONS="--color"
 export TERM='xterm-color'
 
 # vim installation
-export PATH="$PATH:/opt/local/bin"
+# Prefer local installations first -- chefdk
+export PATH="/opt/local/bin:/usr/local/bin:$PATH"
 
 # work bin path
-export PATH="$PATH:~/bin/cisco"
+export PATH="$PATH:$HOME/bin/cisco"
 
 # global bin path
-export PATH="$PATH:~/bin"
-
-# vim
-export PATH="$PATH:/usr/local/bin"
+export PATH="$PATH:$HOME/bin"
 
 # git
 export PATH="$PATH:/usr/local/git/bin"
