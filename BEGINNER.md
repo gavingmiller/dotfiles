@@ -15,4 +15,10 @@
 * [Programming Ruby 1.9](http://www.amazon.com/gp/product/1934356085/ref=as_li_tf_tl?ie=UTF8&tag=redditrrubyco-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1934356085)
   * This is a full language reference book, not a "read through" style book.
 
+### TDD
 
+* [TDD by Example: Kent Beck](https://www.amazon.ca/Test-Driven-Development-Kent-Beck/dp/0321146530)
+
+### Object Orientation
+
+* [Anything by Sandi Metz](https://www.sandimetz.com/products)
