@@ -1,5 +1,7 @@
 Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 
+Add to attack tools: https://community.riskiq.com/
+
 http://hashcat.net/oclhashcat/
 http://www.bash.academy/
 http://chriskottom.com/minitestcookbook/
