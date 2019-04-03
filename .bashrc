@@ -75,3 +75,7 @@ then
   source ~/.bash/osx/aliases
   PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
 fi
+
+# Per https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+eval "$(ssh-agent -s)"
+ssh-add -K ~/.ssh/id_rsa
