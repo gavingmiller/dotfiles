@@ -1,14 +1,5 @@
 Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 
-Add to attack tools: https://community.riskiq.com/
-
-http://hashcat.net/oclhashcat/
-http://www.bash.academy/
-http://chriskottom.com/minitestcookbook/
-http://ruby-community.com/pages/user_rules
-
-* Software Projects:
-  * https://news.ycombinator.com/item?id=12553837
 
 #### Reading
 
@@ -31,15 +22,6 @@ Working with Unix processes -> Jessie stormer
 
 #### Learning
 
-- How does rbenv work?!
-  - Talk to Tim
-- Building a bash shell in ruby
-- Elevator simulator: https://github.com/mshang/python-elevator-challenge/blob/master/README.md
-  - Visual: http://play.elevatorsaga.com/
-
-#### Projects
-
-- microcorruption.com
 
 #### Blog
 
@@ -60,13 +42,7 @@ Working with Unix processes -> Jessie stormer
   - https://github.com/reactjs/react-rails
   - https://code.facebook.com/posts/1189117404435352/
 
-#### CrossFit
-
-- http://crossfitseattle.com/wp-content/uploads/2011/04/Skill-Levels-1-IV-spreadsheet.pdf
-- http://jumpnrope.com/extras/100club/
-
 ------------
-
 
 * Timing Attack Algorithm(partial) paper:
     * https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
@@ -136,6 +112,7 @@ Working with Unix processes -> Jessie stormer
   * https://cwe.mitre.org/index.html
 * http://md5.gromweb.com/?md5=5f4dcc3b5aa765d61d8327deb882cf99
 * http://sha1.gromweb.com/?hash=5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+* http://hashcat.net/oclhashcat/
 
 ### Learning Links
 
@@ -143,7 +120,6 @@ Working with Unix processes -> Jessie stormer
 * Troy Hunt Course: https://www.pluralsight.com/courses/ethical-hacking-web-applications
 * Metasploit Course: https://www.offensive-security.com/metasploit-unleashed/
 * Free Course: https://www.offensive-security.com/information-security-training/
-* SAIT Course: http://www.sait.ca/programs-and-courses/continuing-education/courses-and-certificates/it-security-certificate-of-achievement.php
 * Online Course: https://www.offensive-security.com/information-security-certifications/oscp-offensive-security-certified-professional/
 * Malware Analysis - CSCI: https://github.com/RPISEC/Malware
 
@@ -170,3 +146,4 @@ Working with Unix processes -> Jessie stormer
 
 * https://www.shodan.io/
   * https://www.shodan.io/search?query=27017+country%3A%22CA%22&page=2
+* Add to attack tools: https://community.riskiq.com/
