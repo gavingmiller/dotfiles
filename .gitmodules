@@ -58,6 +58,3 @@
   path = .vim/bundle/vim-go
   url = git@github.com:fatih/vim-go.git
   ignore = dirty
-[submodule "personal-notes"]
-	path = personal-notes
-	url = https://gavingmiller@bitbucket.org/gavingmiller/personal-notes.git
