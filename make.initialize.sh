@@ -21,6 +21,7 @@ links="bin \
       .githelpers \
       .gitmessage \
       .rspec \
+      .ssh/config \
       .pryrc \
       .vim \
       .vimrc"
