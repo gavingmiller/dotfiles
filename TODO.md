@@ -3,92 +3,17 @@ Incredible! http://www.pgbovine.net/command-line-bullshittery.htm
 
 #### Reading
 
-http://techblog.netflix.com/2015/08/netflix-at-velocity-2015-linux.html
 http://cb.vu/unixtoolbox.xhtml
 http://everydayrails.com/2015/07/29/deep-cloning.html
 http://nerds.airbnb.com/developer-infrastructure-with-airbnb-and-bundler/
 https://brandur.org/alerting
-http://www.openioc.org/
 http://www.rowetel.com/blog/?p=4316
 -> http://www.mostgoodyoucando.com/
 -> http://www.amazon.com/Doing-Good-Better-Effective-Difference/dp/1592409105
-Working with Unix processes -> Jessie stormer
 
-#### System
-
-- **Home System**
-- **Work System**
-  * Daily rolling bash history files
-
-#### Learning
-
-
-#### Blog
-
-  - Brakeman against: http://www.codetriage.com/
-  - Safe file access in Ruby
-    - http://brakemanscanner.org/docs/warning_types/file_access/index.html
-    - http://www.codeprovidence.com/category/file-access/
-      -- Example given in File.access is super wrong!
-  - Create an RSpec cheatsheet ala:
-    - http://cheatrags.com/rspec-matchers
-    - http://stackoverflow.com/a/13939599/33226
-    - https://github.com/rspec/rspec-rails
-    - `match_array` https://relishapp.com/rspec/rspec-rails/docs/matchers/activerecord-relation-match-array
-  - Testing memoization
-    - http://stackoverflow.com/questions/7367000/testing-memoization
-  - Fixing Brakeman syscall vulnerabilities
-- !!! https://apphub.io/
-  - https://github.com/reactjs/react-rails
-  - https://code.facebook.com/posts/1189117404435352/
 
 ------------
 
-* Timing Attack Algorithm(partial) paper:
-    * https://cr.yp.to/antiforgery/cachetiming-20050414.pdf
-    * https://github.com/sinatra/rack-protection
-* Good paper explaining RCE potential of a CVE
-    * https://www.nccgroup.trust/globalassets/our-research/us/whitepapers/AnatomyOfRailsVuln-CVE-2014-0130.pdf
-* NoSQL injection tool
-    * https://github.com/tcstool/NoSQLMap
-* portable android device for pen testing
-    * https://www.offensive-security.com/kali-linux-nethunter-download/
-* Might have something useful:
-    * http://www.hpenterprisesecurity.com/vulncat/en/vulncat/index.html
-* InfoSec Reading list
-    * https://github.com/jacobian/infosec-engineering
-* JWT in Rack
-    * https://auth0.com/blog/2016/06/02/ruby-authentication-secure-rack-apps-with-jwt
-* Hacking Rails
-    * http://phrack.org/issues/69/12.html#article
-* Commix
-    * Command Injection Toolkit
-    * https://github.com/stasinopoulos/commix
-* Preventative vs Reactive
-    * https://medium.com/@justin.schuh/stop-buying-bad-security-prescriptions-f18e4f61ba9e#.8dn6176dh
-* Platform to "hack" against
-    * https://hack.me/
-* NCCGroup && Boilerman
-    * https://github.com/tomekr/boilerman
-    * https://www.blackhat.com/docs/eu-15/materials/eu-15-Jarmoc-Going-AUTH-The-Rails-On-A-Crazy-Train-wp.pdf
-* html_safe
-    * https://stackoverflow.com/questions/4251284/raw-vs-html-safe-vs-h-to-unescape-html#comment31625205_12399977
-* Public PenTests
-    * https://github.com/juliocesarfort/public-pentesting-reports
-* Conversion tools
-    * https://gchq.github.io/CyberChef/#
-* How to start Reversing Malware -- good listing of resources:
-    * http://amanda.secured.org/how-to-start-reverse-engineering-malware/
-
-### CTFs
-
-* http://overthewire.org/wargames/
-* http://cyberforensicschallenge.com/challenges/mini-challenges/
-* https://picoctf.org 
-* https://ctf.isis.poly.edu/ 
-* http://ctftime.org
-* https://www.holidayhackchallenge.com/
-* https://capturetheflag.withgoogle.com/teasers
 
 ### Links (todo: classify)
 
