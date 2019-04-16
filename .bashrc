@@ -77,5 +77,12 @@ then
 fi
 
 # Per https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-eval "$(ssh-agent -s)"
-ssh-add -K ~/.ssh/id_rsa
+#$(env | grep SSH_AGENT_ID)
+#exit_status=$?
+#if [ $exit_status -eq 1 ]
+#then
+  eval "$(ssh-agent -s)"
+  # This gets run when I run "git ra" best solution I could get working
+  # Better solution would be to check and not even run this command!
+  ssh-add -K ~/.ssh/id_rsa 2> /dev/null
+#fi
