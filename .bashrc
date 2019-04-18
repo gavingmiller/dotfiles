@@ -1,4 +1,9 @@
-. ~/bin/bash_colors.sh
+. $HOME/bin/bash_colors.sh
+
+# Customized to pull in work specific configuration
+if [ -f $HOME/.clio.bash ]; then
+  . $HOME/.clio.bash
+fi
 
 # Bundler
 alias bi='bundle install'
