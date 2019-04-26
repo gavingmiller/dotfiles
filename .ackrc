@@ -18,7 +18,9 @@ log:ext:log
 # Do not include log files in searches
 --nolog
 
+# Has to be one per line
 --ignore-dir=bundled_gems
 --ignore-dir=build
 --ignore-dir=vendor
 --ignore-dir=doc
+--ignore-dir=coverage
