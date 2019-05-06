@@ -55,6 +55,7 @@
   whitespace = red reverse
 [commit]
   template = ~/.gitmessage
+	gpgsign = true
 [mergetool "Kaleidoscope"]
   cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
   trustexitcode = true

@@ -21,3 +21,5 @@ git_projectname()
 }
 
 echo "https://$(git_repository)/$(git_username)/$(git_projectname)/compare/$(git_branch)?expand=1"
+open "https://$(git_repository)/$(git_username)/$(git_projectname)/compare/$(git_branch)?expand=1"
+
