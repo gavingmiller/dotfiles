@@ -25,3 +25,5 @@ log:ext:log
 --ignore-dir=doc
 --ignore-dir=coverage
 --ignore-dir=tmp
+--ignore-dir=public/outlook-plugin
+--ignore-dir=public/appcues

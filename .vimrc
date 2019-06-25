@@ -162,9 +162,6 @@ map <leader>y "*y
 " nnoremap <c-h> <c-w>h
 " nnoremap <c-l> <c-w>l
 
-" Insert a hash rocket with <ctrl-l> in insert mode
-imap <c-l> <space>=><space>
-
 " Insert a binding.pry
 imap <leader>bp require 'pry'; binding.pry
 

@@ -19,8 +19,8 @@
   ff = merge --ff-only
   amend = commit --amend
   pom = push origin master
-  pr = pull --rebase
   head = show HEAD
+  prp = pull --rebase --prune
 
   # fetch-all => fetch & prune origin and upstream
   fa = "!git fetch origin --prune && git remote | grep upstream > /dev/null && git fetch upstream --prune"
