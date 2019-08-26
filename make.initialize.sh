@@ -14,6 +14,7 @@ bakdir=~/.dotfiles.bak             # dotfiles backup directory
 links="bin \
       .ackrc \
       .bash \
+      .bash.platform \
       .bashrc \
       .bash_profile \
       .config \

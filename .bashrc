@@ -4,6 +4,12 @@
 if [ -f $HOME/.clio.bash ]; then
   . $HOME/.clio.bash
 fi
+if [ -f $HOME/.clio_profile ]; then
+  . $HOME/.clio_profile
+fi
+
+# Source platform specific settings
+. $HOME/.bash.platform
 
 # Bundler
 alias bi='bundle install'
@@ -68,21 +74,4 @@ man() {
     man "$@"
 }
 
-# OS specific configurations
-# Hat tip to https://github.com/mokhan
-OS=$(uname)
-if [ "$OS" = "Linux" ]
-then
-  source ~/.bash/linux/aliases
-  PS1="\t ${RED}\h${NORMAL} \W\$(grb_git_prompt)\$(job_count)\$ "
-elif [ "$OS" = "Darwin" ]
-then
-  source ~/.bash/osx/aliases
-  PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
-fi
-
-CLIO_PROFILE=$HOME/.clio_profile
-if test -f "$CLIO_PROFILE"; then
-  echo "$CLIO_PROFILE exist"
-  source $CLIO_PROFILE
-fi
+echo "Fix if you see this run during a command invocation. You're doing it wrong"

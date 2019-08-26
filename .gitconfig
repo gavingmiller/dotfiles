@@ -47,7 +47,7 @@
 
   # Source of bashrc require'd  to access functions in .bash/<platform>/aliases
   # Ideally this would be less heavy handed
-  l = "!source ~/.githelpers && source ~/.bashrc && pretty_git_log"
+  l = "!source ~/.githelpers && source ~/.bash.platform && pretty_git_log"
   la = !git l --all
 
   # Branch Output
