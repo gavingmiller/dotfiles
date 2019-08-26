@@ -80,3 +80,9 @@ then
   source ~/.bash/osx/aliases
   PS1="\t \W\$(grb_git_prompt)\$(job_count)\$ "
 fi
+
+CLIO_PROFILE=$HOME/.clio_profile
+if test -f "$CLIO_PROFILE"; then
+  echo "$CLIO_PROFILE exist"
+  source $CLIO_PROFILE
+fi
