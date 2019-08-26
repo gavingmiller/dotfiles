@@ -49,3 +49,6 @@ export PATH="/usr/local/sbin:$PATH"
 # Packer
 # https://www.packer.io/intro/getting-started/install.html
 export PATH="/Users/gavmille/go/src/github.com/hashicorp/packer/bin:$PATH"
+
+# YVM
+export PATH="/usr/local/opt/yvm/bin:$PATH"
