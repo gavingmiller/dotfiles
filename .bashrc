@@ -60,6 +60,15 @@ current_time() {
   echo `date "+%H:%M:%S"`
 }
 
+# From https://stackoverflow.com/a/10169840/33226
+docker() {
+  if [ $# -gt 0 ] && [ "$1" == "down" ] ; then
+    command docker stop $(docker ps -a -q)
+  else
+    command docker "$@"
+  fi
+}
+
 # Colorized man pages
 # From http://boredzo.org/blog/archives/2016-08-15/colorized-man-pages-understood-and-customized
 man() {

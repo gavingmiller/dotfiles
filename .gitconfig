@@ -13,6 +13,7 @@
   # https://github.com/garybernhardt/dotfiles/blob/master/.gitconfig
   st = status
   ci = commit
+  cin = commit -m 'add notes'
   co = checkout
   di = diff
   dc = diff --cached
