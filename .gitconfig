@@ -53,6 +53,7 @@
 
   # Branch Output
   b = "!~/bin/gbrt"
+  bc = "!~/bin/branch-clean"
 [color "diff"]
   whitespace = red reverse
 [commit]
