@@ -5,5 +5,5 @@
 
 branches = `git branch --no-color --list`.chomp.split("\n")
 branches = branches.reject { |b| b.include?("master") }
-`git branch -d #{branches}`
+`git branch -d #{branches.join(" ")}`
 
