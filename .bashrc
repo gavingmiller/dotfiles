@@ -21,6 +21,13 @@ alias copykey="catkey | pbcopy"
 # useful stat
 alias stat="stat -x"
 
+# Cuz I always forget
+function shebang {
+  echo "#!/usr/bin/env ruby"
+  echo "  ... copied to clipboard"
+  echo "#!/usr/bin/env ruby" | pbcopy
+}
+
 # Customize the command line
 function minutes_since_last_commit {
   now=`date +%s`
