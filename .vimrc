@@ -252,14 +252,8 @@ map <leader>gl :CtrlP lib<cr>
 map <leader>f :CtrlP<cr>
 map <leader>F :CtrlP<cr>
 
-" directories to ignore
-set wildignore+=*/build/*,*/tmp/*
-
-" rails
-set wildignore+=vendor/**,public/**,coverage/**,app/assets/**,app/assets/**,node_modules/**,private_gems/**,client-src/**,log/**
-
 " https://medium.com/a-tiny-piece-of-vim/making-ctrlp-vim-load-100x-faster-7a722fae7df6
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+"let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS
@@ -344,13 +338,29 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 map <leader>nt :NERDTreeToggle<cr>
 let NERDTreeIgnore=['.vim$', '\~$']
 
+
 """"""""""""""""""""""""""""""""""""""""""""""""
 " PROJECT SPECIFIC
 """"""""""""""""""""""""""""""""""""""""""""""""
 
-" command-t ignores for cisco (move to private file if sensitive information required)
-set wildignore+=bundled_gems/**
-set wildignore+=build/**
+" directories to ignore
+set wildignore+=*/build/*,*/tmp/*,*.git/*,*/log/*,*/dev-docs/*
+
+" rails
+set wildignore+=*/vendor/*,*/public/*,*/coverage/*,*/app/assets/*,*/node_modules/*
+set wildignore+=*/private_gems/*,*/client-src/*
 
 " Syntax highlighting for haproxy
 au BufRead,BufNewFile haproxy* set ft=haproxy
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""
+" DEBUGGING
+"""""""""""""""""""""""""""""""""""""""""""""""
+
+" Print to the console
+":echom 'a debug message'
+
+" Print contents of wildignore variable
+":echom &wildignore
+
