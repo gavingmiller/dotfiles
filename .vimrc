@@ -252,8 +252,25 @@ map <leader>gl :CtrlP lib<cr>
 map <leader>f :CtrlP<cr>
 map <leader>F :CtrlP<cr>
 
+" https://stackoverflow.com/a/22784889/33226
+let g:ctrlp_max_height=25 " window height
+
+" Caching options
+let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
+let g:ctrlp_clear_cache_on_exit=0
+
+" Use silver surfer for file indexing, significantly faster
+if executable('ag')
+  let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+endif
+
+" Below doesn't seem to be necessary with above command, but keep for
+" potential future usage
 " https://medium.com/a-tiny-piece-of-vim/making-ctrlp-vim-load-100x-faster-7a722fae7df6
 "let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" Really nice to have
+"   * Reindex ctrlp after pulling new changes from git
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " RUNNING TESTS
