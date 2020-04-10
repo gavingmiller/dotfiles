@@ -90,4 +90,8 @@ man() {
     man "$@"
 }
 
+kill_by_port_number() {
+  kill -9 $(lsof -n -i :$1 | grep LISTEN | awk '{print $2}')
+}
+
 echo "Fix if you see this run during a command invocation. You're doing it wrong"
