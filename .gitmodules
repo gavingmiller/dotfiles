@@ -60,3 +60,6 @@
 [submodule ".vim/bundle/typescript-vim"]
 	path = .vim/bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim.git
+[submodule ".vim/bundle/indentLine"]
+	path = .vim/bundle/indentLine
+	url = git@github.com:Yggdroot/indentLine.git
