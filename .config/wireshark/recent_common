@@ -1,6 +1,7 @@
-# Recent settings file for Wireshark 3.0.1.
+# Common recent settings file for Wireshark 3.2.1.
 #
-# This file is regenerated each time Wireshark is quit.
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
 # So be careful, if you want to make manual changes here.
 
 ######## Recent capture files (latest last), cannot be altered through command line ########
@@ -25,27 +26,31 @@ recent.capture_filter.en0: host 10.118.8.83
 
 ######## Recent display filters (latest last), cannot be altered through command line ########
 
+recent.display_filter: tcp.stream eq 16
+recent.display_filter: tcp.dstport == 52404
+recent.display_filter: tcp.dstport eq 52404
+recent.display_filter: tcp.port == 52404
+recent.display_filter: tcp.stream eq 15
 recent.display_filter: http.response.code != 401
 recent.display_filter: urlencoded-form
 recent.display_filter: http and http.request.method == "POST"
 recent.display_filter: http.request.method == "POST"
 recent.display_filter: http
-recent.display_filter: vlan.priority <= 7
-recent.display_filter: vlan.priority == 7
-recent.display_filter: ip.addr==192.168.1.8 && tcp.port==20273 && ip.addr==74.125.227.60 && tcp.port==80
-recent.display_filter: ip.addr eq 192.168.1.8 and ip.addr eq 151.164.1.8
-recent.display_filter: ip.addr eq 74.125.227.12 and ip.addr eq 192.168.1.8 and frame.cap_len <= 54
 
 # Main window geometry.
 # Decimal numbers.
-gui.geometry_main_x: 240
-gui.geometry_main_y: 54
-gui.geometry_main_width: 960
-gui.geometry_main_height: 768
+gui.geometry_main_x: 0
+gui.geometry_main_y: 23
+gui.geometry_main_width: 2560
+gui.geometry_main_height: 1395
 
 # Main window maximized.
 # TRUE or FALSE (case-insensitive).
-gui.geometry_main_maximized: FALSE
+gui.geometry_main_maximized: TRUE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
 
 # Statusbar left pane size.
 # Decimal number.
@@ -69,6 +74,31 @@ privs.warn_if_elevated: TRUE
 # Warn if npf.sys isn't loaded on Windows >= 6.0.
 # TRUE or FALSE (case-insensitive).
 privs.warn_if_no_npf: TRUE
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: FALSE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 493
+gui.geom.FollowStreamDialog.y: 23
+gui.geom.FollowStreamDialog.width: 1706
+gui.geom.FollowStreamDialog.height: 1395
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
 
 # Custom colors.
 # List of custom colors selected in Qt color picker.

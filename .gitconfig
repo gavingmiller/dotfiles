@@ -72,3 +72,8 @@
   prompt = false
 [diff]
   tool = Kaleidoscope
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[user]
+  name = Gavin Miller
+  email = gavin.miller@clio.com

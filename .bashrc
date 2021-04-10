@@ -71,6 +71,8 @@ current_time() {
 docker() {
   if [ $# -gt 0 ] && [ "$1" == "down" ] ; then
     command docker stop $(docker ps -a -q)
+  elif [ $# -gt 0 ] && [ "$1" == "prune" ] ; then
+	command docker system prune --all --force
   else
     command docker "$@"
   fi

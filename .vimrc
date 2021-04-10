@@ -5,10 +5,25 @@
 
 call pathogen#infect()
 
+set nocompatible
+filetype off
+
+""""""""""""""""""""""""""""""""""""""""""""""""
+" Vundle
+""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ruanyl/vim-gh-line'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 """"""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
 """"""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible
 
 " tell it to use an undo file
 set undodir=.undo
@@ -264,6 +279,11 @@ if executable('ag')
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
 
+" Disable so that wildignore works. See: https://stackoverflow.com/a/23015387/33226
+if exists("g:ctrlp_user_command")
+  unlet g:ctrlp_user_command
+endif
+
 " Below doesn't seem to be necessary with above command, but keep for
 " potential future usage
 " https://medium.com/a-tiny-piece-of-vim/making-ctrlp-vim-load-100x-faster-7a722fae7df6
@@ -365,7 +385,9 @@ set wildignore+=*/build/*,*/tmp/*,*.git/*,*/log/*,*/dev-docs/*
 
 " rails
 set wildignore+=*/vendor/*,*/public/*,*/coverage/*,*/app/assets/*,*/node_modules/*
-set wildignore+=*/private_gems/*,*/client-src/*
+set wildignore+=*/private_gems/*,*/client-src/*,*/microservices/*,*/vcr_cassettes/*
+set wildignore+=*.jpg,*.jpeg,*.png,*.gif,*.ttf,*.tga,*.dds,*.ico,*.eot,*.pdf,*.swf,*.jar,*.zip
+set wildignore+=*/db/seeds.rb
 
 " Syntax highlighting for haproxy
 au BufRead,BufNewFile haproxy* set ft=haproxy

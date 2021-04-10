@@ -27,3 +27,6 @@ log:ext:log
 --ignore-dir=tmp
 --ignore-dir=public/outlook-plugin
 --ignore-dir=public/appcues
+--ignore-dir=public/packs
+--ignore-dir=.yarn/releases
+--ignore-file=is:seeds.rb
