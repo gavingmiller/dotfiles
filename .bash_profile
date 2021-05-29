@@ -1,3 +1,4 @@
+# fix bash warning for mac zshell
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # rbenv

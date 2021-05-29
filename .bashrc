@@ -97,3 +97,6 @@ kill_by_port_number() {
 }
 
 echo "Fix if you see this run during a command invocation. You're doing it wrong"
+source /Users/gavinmiller/.clio_profile
+
+eval "$(dev _hook)"
