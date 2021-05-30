@@ -66,3 +66,6 @@
 [submodule ".vim/bundle/Vundle.vim"]
 	path = .vim/bundle/Vundle.vim
 	url = git@github.com:VundleVim/Vundle.vim
+[submodule ".vim/bundle/vim-gh-line"]
+	path = .vim/bundle/vim-gh-line
+	url = git@github.com:ruanyl/vim-gh-line.git
