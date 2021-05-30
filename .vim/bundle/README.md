@@ -3,7 +3,7 @@
 
 ```
 # cwd = .dotfiles/
-git submodule add <repo> .vim/bundle/
+git submodule add <repo> .vim/bundle/<repo>
 git submodule init
 ```
 
