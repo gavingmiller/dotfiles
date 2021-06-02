@@ -4,6 +4,7 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 # Include .bashrc and git-completion
 source $HOME/.bashrc
 source $HOME/bin/git-completion.bash
+source $HOME/bin/git-prompt.bash
 
 # rbenv
 export PATH="$PATH:$HOME/.rbenv/bin"
