@@ -1,9 +1,6 @@
 . $HOME/bin/bash_colors.sh
 
 # Customized to pull in work specific configuration
-if [ -f $HOME/.clio.bash ]; then
-  . $HOME/.clio.bash
-fi
 if [ -f $HOME/.clio_profile ]; then
   . $HOME/.clio_profile
 fi

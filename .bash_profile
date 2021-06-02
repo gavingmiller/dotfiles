@@ -24,7 +24,6 @@ export TERM='xterm-color'
 export LESS="-R"
 
 # vim installation
-# Prefer local installations first -- chefdk
 export PATH="/opt/local/bin:/usr/local/bin:$PATH"
 
 # global bin path
@@ -33,18 +32,6 @@ export PATH="$PATH:$HOME/bin"
 # git
 export PATH="$PATH:/usr/local/git/bin"
 
-# nvm
-export NVM_DIR="/Users/gmiller/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Brew openssl
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-# Brew curl
-export PATH="/usr/local/opt/curl/bin:$PATH"
-
 # Brew sbin
 export PATH="/usr/local/sbin:$PATH"
 
-# YVM
-export PATH="/usr/local/opt/yvm/bin:$PATH"
