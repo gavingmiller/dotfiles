@@ -15,11 +15,7 @@ fi
 alias bi='bundle install'
 alias bu='bundle update'
 
-alias catkey="cat $HOME/.ssh/id_rsa.pub"
-alias copykey="catkey | pbcopy"
-
-# useful stat
-alias stat="stat -x"
+alias gimmie-aws-creds='gimme-aws-creds'
 
 # Cuz I always forget
 function shebang {
