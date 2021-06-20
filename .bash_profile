@@ -6,10 +6,6 @@ source $HOME/.bashrc
 source $HOME/bin/git-completion.bash
 source $HOME/bin/git-prompt.bash
 
-# rbenv
-export PATH="$PATH:$HOME/.rbenv/bin"
-if which rbenv &> /dev/null; then eval "$(rbenv init -)"; fi
-
 # set editor for bundle open
 export EDITOR=vim
 export BUNDLER_EDITOR=vim
