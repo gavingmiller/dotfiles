@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "#!/usr/bin/env ruby"
+echo "  ... copied to clipboard"
+echo "#!/usr/bin/env ruby" | pbcopy
