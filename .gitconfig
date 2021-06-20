@@ -26,9 +26,6 @@
   # fetch-all => fetch & prune origin and upstream
   fa = "!git fetch origin --prune && git remote | grep upstream > /dev/null && git fetch upstream --prune"
 
-  # Merge upstream into master
-  merge-up = !git fetch upstream && git merge upstream/master && git pom
-
   # Delete remote branch
   delete-remote-branch = !git push origin --delete
 

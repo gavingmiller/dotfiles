@@ -1,9 +1,15 @@
 #!/usr/bin/env ruby
+require 'open3'
 
 # Reference in .gitconfig:
 #   bc = "!~/bin/branch-clean"
 
 branches = `git branch --no-color --list`.chomp.split("\n")
-branches = branches.reject { |b| b.include?("master") }
-`git branch -d #{branches.join(" ")}`
+branches = branches.reject { |b| b.include?("master") }.map(&:strip)
 
+branches.each do |branch|
+  stdout, stderr, status = Open3.capture3(*["git", "branch", "-d", branch])
+  puts stdout unless stdout.empty?
+end
+
+puts `git b`
