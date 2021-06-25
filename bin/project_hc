@@ -1,0 +1,24 @@
+#!/bin/bash
+
+health_check=$(cat <<'DOC'
+**[HC]**
+
+**Key dates**
+_Dates that are important to the timeline of your project. Marketing release, internal release, go to market, etc. This is the most important part of the update. Clearly indicate if dates change and what is causing those changes._
+
+**What we accomplished this week**
+_High level updates that outline project work or status changes_
+
+**Missed goals and what we learned from this**
+_High level updates that outline what was not accomplished that we expected to have done. Explain what led to this decision or miss._
+
+**Key learnings**
+_High level updates that outline what was learned outside of missed goals. If there were no missed goals, feel free to omit the previous section and include your learnings in this section only._
+
+**What is coming next week**
+_High level update of what you expect to get done next week._
+DOC
+)
+
+printf "$health_check" | pbcopy
+echo "Health check copied to clipboard"
